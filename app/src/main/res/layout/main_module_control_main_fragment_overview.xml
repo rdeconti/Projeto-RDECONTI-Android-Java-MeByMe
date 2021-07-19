@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layoutManager="LinearLayoutManager"
+    style="@style/constraintLayout">
+
+    <LinearLayout
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/linearLayoutHorizontalWrapWrapOverview">
+
+        <LinearLayout style="@style/linearLayoutVerticalWrapWrap">
+
+            <Button
+                android:id="@+id/buttonPhaseDiary"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_diary"
+                android:text="@string/label_diary" />
+
+            <TextView
+                android:id="@+id/textViewPhaseDiaryDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseMood"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_mood"
+                android:text="@string/label_mood" />
+
+            <TextView
+                android:id="@+id/textViewPhaseMoodDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseBiorhythm"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_biorhythm"
+                android:text="@string/label_biorhythm" />
+
+            <TextView
+                android:id="@+id/textViewPhaseBiorhythmDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseYou"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_you"
+                android:text="@string/label_you" />
+
+            <TextView
+                android:id="@+id/textViewPhaseYouDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseAutobiography"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_autobiography"
+                android:text="@string/label_autobiography" />
+
+            <TextView
+                android:id="@+id/textViewPhaseAutobiographyDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutVerticalWrapWrap">
+
+            <Button
+                android:id="@+id/buttonPhaseReflection"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_reflection"
+                android:text="@string/label_reflection" />
+
+            <TextView
+                android:id="@+id/textViewPhaseReflectionDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseRecognition"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_recognition"
+                android:text="@string/label_recognition" />
+
+            <TextView
+                android:id="@+id/textViewPhaseRecognitionDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhasePersonality"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_personality"
+                android:text="@string/label_personality" />
+
+            <TextView
+                android:id="@+id/textViewPhasePersonalityDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseLife"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_life"
+                android:text="@string/label_life" />
+
+            <TextView
+                android:id="@+id/textViewPhaseLifeDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseAction"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_action"
+                android:text="@string/label_action" />
+
+            <TextView
+                android:id="@+id/textViewPhaseActionDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutVerticalWrapWrap">
+
+            <Button
+                android:id="@+id/buttonPhaseBelief"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_belief"
+                android:text="@string/label_belief" />
+
+            <TextView
+                android:id="@+id/textViewPhaseBeliefDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseChallenge"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_challenge"
+                android:text="@string/label_challenge" />
+
+            <TextView
+                android:id="@+id/textViewPhaseChallengeDone"
+                android:text="@string/label_screen_number_test_03"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseSharing"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_sharing"
+                android:text="@string/label_sharing" />
+
+            <TextView
+                android:id="@+id/textViewPhaseSharingDone"
+                android:text="@string/label_screen_number_test_03"
+                tools:visibility="invisible"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhasePhoto"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_photo"
+                android:text="@string/label_photos" />
+
+            <TextView
+                android:id="@+id/textViewPhasePhotoDone"
+                android:text="@string/label_screen_number_test_03"
+                tools:visibility="invisible"
+                style="@style/textViewOverview" />
+
+            <Button
+                android:id="@+id/buttonPhaseUser"
+                style="@style/buttonOverview"
+                android:drawableBottom="@drawable/phase_user"
+                android:text="@string/label_user" />
+
+            <TextView
+                android:id="@+id/textViewPhaseUserDone"
+                android:text="@string/label_screen_number_test_03"
+                tools:visibility="invisible"
+                style="@style/textViewOverview" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

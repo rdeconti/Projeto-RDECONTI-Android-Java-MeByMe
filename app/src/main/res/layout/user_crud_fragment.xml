@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".module03autobiography.ModuleFragmentAutobiographyCrud"
+    style="@style/frameLayoutCrud">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        style="@style/cardView">
+
+        <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+            <TextView
+                android:id="@+id/mTextViewValueApplicationName"
+                style="@style/textViewTitleDark"
+                android:text="@string/app_name" />
+
+            <View style="@style/divider" />
+
+            <TextView
+                android:id="@+id/textViewCrudTitle"
+                style="@style/textViewTitleCrud"
+                android:text="@string/label_user" />
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutVerticalMatchWrapLeft">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_birthdate" />
+
+                        <EditText
+                            android:id="@+id/editTextUserBirthdate"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:inputType="date"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_nickname" />
+
+                        <EditText
+                            android:id="@+id/editTextUserNickName"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_complete_name" />
+
+                        <EditText
+                            android:id="@+id/editTextUserCompleteName"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_first_name" />
+
+                        <EditText
+                            android:id="@+id/editTextUserFirstName"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_last_name" />
+
+                        <EditText
+                            android:id="@+id/editTextUserLastName"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_birthCountry" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserBirthCountry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_countries" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_race" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserRace"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_race" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_language" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserLanguage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_languages"
+                            android:spinnerMode="dropdown" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_sexual_option" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserSexualOption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_sexual_option" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_gender" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserGender"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_gender" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_religion" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserReligion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_religion" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_scholarity" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserScholarity"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_scholarity" />
+
+                        <EditText
+                            android:id="@+id/editTextUserScholarity"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_marital_status" />
+
+                        <Spinner
+                            android:id="@+id/spinnerUserMaritalStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:entries="@array/user_marital_status" />
+
+                        <EditText
+                            android:id="@+id/editTextUserMaritalStatus"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_height" />
+
+                        <EditText
+                            android:id="@+id/editTextUserHeight"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:inputType="numberSigned"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/linearLayoutHorizontalMatchWrapLeft">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_weight" />
+
+                        <EditText
+                            android:id="@+id/editTextUserWeight"
+                            style="@style/editTextAnswerSingleLine"
+                            android:autofillHints="@string/label_type_your_data_here"
+                            android:inputType="numberSigned"
+                            android:text="@string/label_type_your_data_here"
+                            tools:ignore="LabelFor" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                    <LinearLayout style="@style/linearLayoutVerticalWrapWrap">
+
+                        <Button
+                            android:id="@+id/buttonPhotoCamera"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_camera_blue_24dp"
+                            android:text="@string/label_photos" />
+
+                        <Button
+                            android:id="@+id/buttonPhotoDevice"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_phone_blue_24dp"
+                            android:text="@string/label_device" />
+
+                        <Button
+                            android:id="@+id/buttonPhotoRemove"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_remove_blue_24dp"
+                            android:text="@string/label_remove" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageViewPhoto"
+                        android:src="@drawable/grade_icon_99"
+                        android:contentDescription="@string/content_description"
+                        app:srcCompat="@color/Blue"
+                        style="@style/imageViewPhoto" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

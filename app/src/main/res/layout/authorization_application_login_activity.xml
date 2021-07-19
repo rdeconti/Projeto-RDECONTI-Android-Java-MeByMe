@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prosper.day.module66authorization.AuthorizationApplicationLoginActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="81dp"
+    style="@style/constraintLayout">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        style="@style/appBarLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/appBarToolbar"
+            app:subtitle="@string/label_screen_test_name"
+            app:title="@string/label_screen_test_name" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/progressBar"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout_horizontal_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewHeaderMotivational"
+        style="@style/textViewHeaderMotivational"
+        android:text="@string/label_motivation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/textViewAppName"
+        style="@style/textViewAppNameBig"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout_horizontal_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.064"/>
+
+    <TextView
+        android:id="@+id/textViewValueMotivation"
+        style="@style/textViewValueMotivation"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout_horizontal_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.064"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/imageViewAuthorization"
+        android:contentDescription="@string/content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/editText_userEmail"
+        android:hint="@string/hint_email"
+        app:layout_constraintBottom_toTopOf="@+id/editText_user_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no"
+        style="@style/editTextEmail" />
+
+    <EditText
+        android:id="@+id/editText_user_password"
+        android:hint="@string/hint_password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no"
+        style="@style/editTextPassword" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLoginData"
+        style="@style/checkBox"
+        android:text="@string/label_save_login"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/progressBar"
+        app:layout_constraintTop_toBottomOf="@+id/editText_userEmail"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_horizontal_buttons"
+        style="@style/linearLayoutHorizontalMatchWrap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button_login"
+            style="@style/buttonCommon"
+            android:text="@string/label_login" />
+
+        <Button
+            android:id="@+id/button_reset"
+            style="@style/buttonCommon"
+            android:text="@string/label_reset" />
+
+        <Button
+            android:id="@+id/button_signin"
+            style="@style/buttonCommon"
+            android:text="@string/label_signin" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

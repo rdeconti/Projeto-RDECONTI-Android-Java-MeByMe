@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".module02mood.ModuleFragmentMoodGraphEvolution"
+    style="@style/constraintLayout">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:text="@string/message_data_not_exist"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayoutBottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/textViewMessage" />
+
+    <com.github.mikephil.charting.charts.HorizontalBarChart
+        android:id="@+id/graphTypeBarChart"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutBottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/graphView" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/graphTypePieChart"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutBottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/graphView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottomButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/linearLayoutHorizontalMatchWrap">
+
+        <Button
+            android:id="@+id/buttonChart"
+            style="@style/buttonCommon"
+            android:drawableTop="@drawable/tab_icon_graph_chart_pie_white_24dp"
+            android:text="@string/label_chart_pie" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

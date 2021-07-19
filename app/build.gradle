@@ -1,0 +1,147 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+
+    compileSdkVersion 29
+
+    defaultConfig {
+        applicationId "com.prosper.day"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName '1.0'
+        android.defaultConfig.vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    configurations {
+        all {
+            exclude module: 'httpclient'
+            exclude module: 'commons-logging'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    flavorDimensions "dimension"
+
+    productFlavors {
+        free {
+            dimension "dimension"
+            applicationIdSuffix
+            applicationId "com.prosper.day"
+            minSdkVersion 21
+            targetSdkVersion 28
+            testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+            versionCode 1
+            versionName '1.0'
+        }
+        paid {
+            dimension "dimension"
+            applicationIdSuffix ".full"
+            applicationId "com.prosper.day"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/test/']
+        }
+    }
+
+}
+
+dependencies {
+
+    //.................................................................................... Joda-Time
+    implementation 'joda-time:joda-time:2.10.6'
+
+    //........................................................................... File Group-Ungroup
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //............................................................................... Android basics
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.0-rc01'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha05'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    //................................................................................... Google API
+    implementation 'com.google.api-client:google-api-client:1.30.3'
+    //................................................................ Google Services Firebase Core
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    //....................................................... Google Services Firebase Authorization
+    implementation 'com.google.firebase:firebase-auth:19.3.2'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
+    //........................................................ Google Services Firebase Notification
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    //............................................................ Google Services Firebase Database
+    implementation 'com.google.firebase:firebase-database:19.4.0'
+    //........................................................... Google Services Firebase Firestore
+    implementation 'com.google.firebase:firebase-firestore:21.6.0'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation 'com.firebaseui:firebase-ui-storage:4.1.0'
+    //.......................................................................... Google Services Ads
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'com.google.firebase:firebase-ads:19.3.0'
+    implementation 'com.google.android.gms:play-services-plus:17.0.0'
+    freeImplementation 'com.google.android.gms:play-services-ads:19.3.0'
+    //......................................................................................... Test
+    testImplementation 'junit:junit:4.13-beta-3'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //....................................................................... Picasso (Treat images)
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    //.......................................................... Google Services (MUST BE LAST LINE)
+    apply plugin: 'com.google.gms.google-services'
+    implementation 'androidx.mediarouter:mediarouter:1.1.0'
+    //............................................................................ Graphs and charts
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'org.jetbrains:annotations:15.0'
+    //......................................................................................... GIFs
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+    //........................................................................................ JSOUP
+    implementation 'org.jsoup:jsoup:1.10.2'
+    //..................................................................................... SHOWCASE
+    implementation 'com.github.deano2390:MaterialShowcaseView:1.3.4@aar'
+
+    //// implementation 'com.google.android.material:material:1.2.0-alpha06'
+    implementation 'com.google.android.material:material:1.3.0-alpha02'
+
+}
+
+repositories {
+
+    maven { url "https://jitpack.io" }
+
+}

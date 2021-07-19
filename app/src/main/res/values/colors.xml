@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *********************************************************************** COLOR: STANDARD -->
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackgroundLight">#F8BBD0</color>
+    <color name="colorBackgroundMedium">#E91E63</color>
+    <color name="colorBackgroundDark">#C2185B</color>
+    <color name="colorTextTitleBlack">#212121</color>
+    <color name="colorTextTitleWhite">#FFFFFF</color>
+    <color name="colorTextValueGray">#757575</color>
+
+    <color name="White">#FFFFFF</color>
+    <color name="Blue">#0000FF</color>
+    <color name="Pink">#FFFF00FB</color>
+
+    <color name="app_primary">#1976D2</color>
+    <color name="app_primary_dark">#1565C0</color>
+    <color name="colorDataBlack">#000000</color>
+
+    <!-- ************************************************************************* COLOR: GRAPHS -->
+    <color name="graphColorPinkPrimaryDark">@color/pink_primary_dark</color>
+    <color name="graphColorRedPrimaryDark">@color/red_primary_dark</color>
+    <color name="graphColorGreenPrimaryDark">@color/green_primary_dark</color>
+    <color name="graphColorYellowPrimaryDark">@color/yellow_primary_dark</color>
+    <color name="graphColorBluePrimaryDark">@color/blue_primary_dark</color>
+    <color name="graphColorIndigoPrimaryDark">@color/indigo_primary_dark</color>
+    <color name="graphColorCyanPrimaryDark">@color/cyan_primary_dark</color>
+    <color name="graphColorAmberPrimaryDark">@color/amber_primary_dark</color>
+    <color name="graphColorBrownPrimaryDark">@color/brown_primary_dark</color>
+    <color name="graphColorTealPrimaryDark">@color/teal_primary_dark</color>
+    <color name="graphColorOrangePrimaryDark">@color/orange_primary_dark</color>
+    <color name="graphColorPurplePrimaryDark">@color/purple_primary_dark</color>
+    <color name="graphColorGrayPrimaryDark">@color/gray_primary_dark</color>
+
+    <!-- *************************************************************************** COLOR: PINK -->
+    <color name="pink_primary">#E91E63</color>
+    <color name="pink_primary_dark">#C2185B</color>
+    <color name="pink_primary_light">#F8BBD0</color>
+    <color name="pink_accent">#FF4081</color>
+    <color name="pink_title_primary_text">#212121</color>
+    <color name="pink_title_secondary_text">#FFFFFF</color>
+    <color name="pink_value_primary_text">#757575</color>
+    <color name="pink_value_secondary_text">#FFFFFF</color>
+    <color name="pink_icons">#FFFFFF</color>
+    <color name="pink_divider">#BDBDBD</color>
+
+    <!-- **************************************************************************** COLOR: RED -->
+    <color name="red_primary">#F44336</color>
+    <color name="red_primary_dark">#D32F2F</color>
+    <color name="red_primary_light">#FFCDD2</color>
+    <color name="red_accent">#FF5252</color>
+    <color name="red_title_primary_text">#212121</color>
+    <color name="red_title_secondary_text">#FFFFFF</color>
+    <color name="red_value_primary_text">#757575</color>
+    <color name="red_value_secondary_text">#FFFFFF</color>
+    <color name="red_icons">#FFFFFF</color>
+    <color name="red_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************** COLOR: GREEN -->
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_primary_dark">#388E3C</color>
+    <color name="green_primary_light">#C8E6C9</color>
+    <color name="green_accent">#4CAF50</color>
+    <color name="green_title_primary_text">#212121</color>
+    <color name="green_title_secondary_text">#FFFFFF</color>
+    <color name="green_value_primary_text">#757575</color>
+    <color name="green_value_secondary_text">#FFFFFF</color>
+    <color name="green_icons">#FFFFFF</color>
+    <color name="green_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************* COLOR: YELLOW -->
+    <color name="yellow_primary">#FFEB3B</color>
+    <color name="yellow_primary_dark">#FBC02D</color>
+    <color name="yellow_primary_light">#FFF9C4</color>
+    <color name="yellow_accent">#FFEB3B</color>
+    <color name="yellow_title_primary_text">#212121</color>
+    <color name="yellow_title_secondary_text">#FFFFFF</color>
+    <color name="yellow_value_primary_text">#757575</color>
+    <color name="yellow_value_secondary_text">#FFFFFF</color>
+    <color name="yellow_icons">#212121</color>
+    <color name="yellow_divider">#BDBDBD</color>
+
+    <!-- *************************************************************************** COLOR: BLUE -->
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_primary_dark">#1976D2</color>
+    <color name="blue_primary_light">#BBDEFB</color>
+    <color name="blue_accent">#448AFF</color>
+    <color name="blue_title_primary_text">#212121</color>
+    <color name="blue_title_secondary_text">#FFFFFF</color>
+    <color name="blue_value_primary_text">#757575</color>
+    <color name="blue_value_secondary_text">#FFFFFF</color>
+    <color name="blue_icons">#FFFFFF</color>
+    <color name="blue_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************* COLOR: INDIGO -->
+    <color name="indigo_primary">#3F51B5</color>
+    <color name="indigo_primary_dark">#303F9F</color>
+    <color name="indigo_primary_light">#C5CAE9</color>
+    <color name="indigo_accent">#FF5252</color>
+    <color name="indigo_title_primary_text">#212121</color>
+    <color name="indigo_title_secondary_text">#FFFFFF</color>
+    <color name="indigo_value_primary_text">#757575</color>
+    <color name="indigo_value_secondary_text">#FFFFFF</color>
+    <color name="indigo_icons">#FFFFFF</color>
+    <color name="indigo_divider">#BDBDBD</color>
+
+    <!-- *************************************************************************** COLOR: CYAN -->
+    <color name="cyan_primary">#00BCD4</color>
+    <color name="cyan_primary_dark">#0097A7</color>
+    <color name="cyan_primary_light">#B2EBF2</color>
+    <color name="cyan_accent">#448AFF</color>
+    <color name="cyan_title_primary_text">#212121</color>
+    <color name="cyan_title_secondary_text">#FFFFFF</color>
+    <color name="cyan_value_primary_text">#757575</color>
+    <color name="cyan_value_secondary_text">#FFFFFF</color>
+    <color name="cyan_icons">#FFFFFF</color>
+    <color name="cyan_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************** COLOR: AMBER -->
+    <color name="amber_primary">#FFC107</color>
+    <color name="amber_primary_dark">#FFA000</color>
+    <color name="amber_primary_light">#FFECB3</color>
+    <color name="amber_accent">#FFEB3B</color>
+    <color name="amber_title_primary_text">#212121</color>
+    <color name="amber_title_secondary_text">#FFFFFF</color>
+    <color name="amber_value_primary_text">#757575</color>
+    <color name="amber_value_secondary_text">#FFFFFF</color>
+    <color name="amber_icons">#212121</color>
+    <color name="amber_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************** COLOR: BROWN -->
+    <color name="brown_primary">#795548</color>
+    <color name="brown_primary_dark">#5D4037</color>
+    <color name="brown_primary_light">#D7CCC8</color>
+    <color name="brown_accent">#795548</color>
+    <color name="brown_title_primary_text">#212121</color>
+    <color name="brown_title_secondary_text">#FFFFFF</color>
+    <color name="brown_value_primary_text">#757575</color>
+    <color name="brown_value_secondary_text">#FFFFFF</color>
+    <color name="brown_icons">#FFFFFF</color>
+    <color name="brown_divider">#BDBDBD</color>
+
+    <!-- *************************************************************************** COLOR: TEAL -->
+    <color name="teal_primary">#009688</color>
+    <color name="teal_primary_dark">#00796B</color>
+    <color name="teal_primary_light">#B2DFDB</color>
+    <color name="teal_accent">#448AFF</color>
+    <color name="teal_title_primary_text">#212121</color>
+    <color name="teal_title_secondary_text">#FFFFFF</color>
+    <color name="teal_value_primary_text">#757575</color>
+    <color name="teal_value_secondary_text">#FFFFFF</color>
+    <color name="teal_icons">#FFFFFF</color>
+    <color name="teal_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************* COLOR: ORANGE -->
+    <color name="orange_primary">#FF9800</color>
+    <color name="orange_primary_dark">#F57C00</color>
+    <color name="orange_primary_light">#FFE0B2</color>
+    <color name="orange_accent">#FFEB3B</color>
+    <color name="orange_title_primary_text">#212121</color>
+    <color name="orange_title_secondary_text">#FFFFFF</color>
+    <color name="orange_value_primary_text">#757575</color>
+    <color name="orange_value_secondary_text">#FFFFFF</color>
+    <color name="orange_icons">#212121</color>
+    <color name="orange_divider">#BDBDBD</color>
+
+    <!-- ************************************************************************* COLOR: PURPLE -->
+    <color name="purple_primary">#9C27B0</color>
+    <color name="purple_primary_dark">#7B1FA2</color>
+    <color name="purple_primary_light">#E1BEE7</color>
+    <color name="purple_accent">#FF5252</color>
+    <color name="purple_title_primary_text">#212121</color>
+    <color name="purple_title_secondary_text">#FFFFFF</color>
+    <color name="purple_value_primary_text">#757575</color>
+    <color name="purple_value_secondary_text">#FFFFFF</color>
+    <color name="purple_icons">#FFFFFF</color>
+    <color name="purple_divider">#BDBDBD</color>
+
+    <!-- *************************************************************************** COLOR: GRAY -->
+    <color name="gray_primary">#9E9E9E</color>
+    <color name="gray_primary_dark">#616161</color>
+    <color name="gray_primary_light">#F5F5F5</color>
+    <color name="gray_accent">#795548</color>
+    <color name="gray_title_primary_text">#212121</color>
+    <color name="gray_title_secondary_text">#FFFFFF</color>
+    <color name="gray_value_primary_text">#757575</color>
+    <color name="gray_value_secondary_text">#FFFFFF</color>
+    <color name="gray_icons">#212121</color>
+    <color name="gray_divider">#BDBDBD</color>
+
+</resources>

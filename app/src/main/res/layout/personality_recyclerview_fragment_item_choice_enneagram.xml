@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    style="@style/cardView">
+
+    <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:contentDescription="@string/content_description"
+            app:srcCompat="@drawable/application_bitmap_small"
+            style="@style/imageViewRecycler" />
+
+        <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <TextView
+                    android:text="@string/label_status"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueStatus"
+                    android:text="@string/label_status_new"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_experience"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueExperience"
+                    android:text="@string/label_experience_good"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_phases"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueSubPhase"
+                    android:text="@string/label_values"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextViewValueQuestion"
+                android:text="@string/app_name"
+                style="@style/textViewValueQuestion" />
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <Button
+                    android:id="@+id/buttonNumber0"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_0"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonNumber1"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_1"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonNumber2"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_2"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonNumber3"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_3"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonNumber4"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_4"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonNumber5"
+                    style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_shape_button_round_blue"
+                    android:padding="8dp"
+                    android:text="@string/label_option_number_5"
+                    android:textColor="@color/White"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <TextView
+                    android:text="@string/label_number"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumber"
+                    android:text="@string/label_screen_number_test_01"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_updated"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueUpdatedDate"
+                    android:text="@string/label_screen_date_test_01"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mTextViewValueId"
+        style="@style/textViewValueInvisible" />
+
+</androidx.cardview.widget.CardView>

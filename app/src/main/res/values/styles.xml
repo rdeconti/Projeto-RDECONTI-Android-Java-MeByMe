@@ -1,0 +1,985 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <style name="ThemeDefault" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="customTextTitleColorDark">@color/pink_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/pink_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/pink_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/pink_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/pink_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/pink_primary_light</item>
+        <item name="android:button">@color/pink_primary_dark</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/pink_primary_light</item>
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+    </style>
+
+    <style name="PreferenceTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:background">@color/pink_primary_light</item>
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+    </style>
+
+    <style name="ThemeDefault.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="ThemeDefault.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <style name="ThemeColorPink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorPrimaryDark">@color/pink_primary_dark</item>
+        <item name="colorAccent">@color/pink_accent</item>
+        <item name="customTextTitleColorDark">@color/pink_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/pink_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/pink_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/pink_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/pink_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/pink_primary_light</item>
+        <item name="android:button">@color/pink_primary_dark</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="ThemeColorRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorPrimaryDark">@color/red_primary_dark</item>
+        <item name="colorAccent">@color/red_accent</item>
+        <item name="customTextTitleColorDark">@color/red_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/red_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/red_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/red_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/red_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/red_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/red_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryDark">@color/green_primary_dark</item>
+        <item name="colorAccent">@color/green_accent</item>
+        <item name="customTextTitleColorDark">@color/green_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/green_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/green_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/green_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/green_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/green_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/green_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorYellow" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/yellow_primary</item>
+        <item name="colorPrimaryDark">@color/yellow_primary_dark</item>
+        <item name="colorAccent">@color/yellow_accent</item>
+        <item name="customTextTitleColorDark">@color/yellow_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/yellow_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/yellow_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/yellow_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/yellow_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/yellow_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/yellow_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryDark">@color/blue_primary_dark</item>
+        <item name="colorAccent">@color/blue_accent</item>
+        <item name="customTextTitleColorDark">@color/blue_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/blue_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/blue_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/blue_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/blue_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/blue_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/blue_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorIndigo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorPrimaryDark">@color/indigo_primary_dark</item>
+        <item name="colorAccent">@color/indigo_accent</item>
+        <item name="customTextTitleColorDark">@color/indigo_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/indigo_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/indigo_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/indigo_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/indigo_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/indigo_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/indigo_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorCyan" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/cyan_primary</item>
+        <item name="colorPrimaryDark">@color/cyan_primary_dark</item>
+        <item name="colorAccent">@color/cyan_accent</item>
+        <item name="customTextTitleColorDark">@color/cyan_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/cyan_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/cyan_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/cyan_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/cyan_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/cyan_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/cyan_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorAmber" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/amber_primary</item>
+        <item name="colorPrimaryDark">@color/amber_primary_dark</item>
+        <item name="colorAccent">@color/amber_accent</item>
+        <item name="customTextTitleColorDark">@color/amber_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/amber_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/amber_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/amber_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/amber_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/amber_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/amber_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorBrown" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/brown_primary</item>
+        <item name="colorPrimaryDark">@color/brown_primary_dark</item>
+        <item name="colorAccent">@color/brown_accent</item>
+        <item name="customTextTitleColorDark">@color/brown_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/brown_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/brown_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/brown_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/brown_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/brown_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/brown_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorTeal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryDark">@color/teal_primary_dark</item>
+        <item name="colorAccent">@color/teal_accent</item>
+        <item name="customTextTitleColorDark">@color/teal_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/teal_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/teal_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/teal_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/teal_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/teal_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/teal_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryDark">@color/orange_primary_dark</item>
+        <item name="colorAccent">@color/orange_accent</item>
+        <item name="customTextTitleColorDark">@color/orange_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/orange_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/orange_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/orange_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/orange_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/orange_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/orange_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorPurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryDark">@color/purple_primary_dark</item>
+        <item name="colorAccent">@color/purple_accent</item>
+        <item name="customTextTitleColorDark">@color/purple_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/purple_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/purple_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/purple_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/purple_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/purple_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/purple_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeColorGray" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gray_primary</item>
+        <item name="colorPrimaryDark">@color/gray_primary_dark</item>
+        <item name="colorAccent">@color/gray_accent</item>
+        <item name="customTextTitleColorDark">@color/gray_title_primary_text</item>
+        <item name="customTextTitleColorLight">@color/gray_title_secondary_text</item>
+        <item name="customTextValueColorDark">@color/gray_value_primary_text</item>
+        <item name="customTextValueColorLight">@color/gray_value_secondary_text</item>
+        <item name="customBackgroundValueColorDark">@color/gray_primary_dark</item>
+        <item name="customBackgroundValueColorLight">@color/gray_primary_light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="android:button">@color/gray_primary_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <style name="appBarLayout">
+        <item name="android:theme">@style/ThemeDefault.AppBarOverlay</item>
+        <item name="android:textColor">?attr/customTextTitleColorLight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="appBarToolbar">
+        <item name="android:popupTheme">@style/ThemeDefault.PopupOverlay</item>
+        <item name="android:textColor">?attr/customTextTitleColorLight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="buttonSmall" parent="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+    </style>
+
+    <style name="buttonCommon" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/customBackgroundValueColorDark</item>
+        <item name="android:textColor">?attr/customTextTitleColorLight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonOption" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/customBackgroundValueColorDark</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="buttonOverview" parent="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:layout_width">130sp</item>
+        <item name="android:layout_height">68sp</item>
+        <item name="android:drawablePadding">@dimen/dimen04dp</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:background">@drawable/custom_shape_button_round_white</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="cardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+    </style>
+
+    <style name="checkBox">
+        <item name="android:layout_width">@dimen/dimen00dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:checked">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center|end</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+    </style>
+
+    <style name="constraintLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/customBackgroundValueColorLight</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen05dp</item>
+        <item name="android:background">?attr/customBackgroundValueColorDark</item>
+    </style>
+
+    <style name="drawerLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/customBackgroundValueColorDark</item>
+    </style>
+
+    <style name="editTextAnswerMultiline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">start|top</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:scrollbarSize">@dimen/dimen08dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="editTextAnswerSingleLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:scrollbarSize">@dimen/dimen08dp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:importantForAutofill" tools:targetApi="o">no</item>
+    </style>
+
+    <style name="editTextEmail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:drawableEnd">@drawable/button_icon_email_white_24dp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">?attr/customBackgroundValueColorLight</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="editTextPassword">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableEnd">@drawable/button_icon_password_white_24dp</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:autofillHints" tools:ignore="NewApi" />
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|start</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen104dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">?attr/customBackgroundValueColorLight</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="floatingActionButtonSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="fabSize">mini</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="floatingActionButtonAuto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:elevation">6dp</item>
+        <item name="fabSize">auto</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="frameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="frameLayoutCrud">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">?attr/customBackgroundValueColorLight</item>
+    </style>
+
+    <style name="frameLayoutTabs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?attr/customBackgroundValueColorLight</item>
+    </style>
+
+    <style name="graphView">
+        <item name="android:layout_width">@dimen/dimen00dp</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageBelief">
+        <item name="android:layout_width">@dimen/dimen00dp</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewDocument">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">126dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewUserPhoto">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewSmall">
+        <item name="android:layout_width">25sp</item>
+        <item name="android:layout_height">25sp</item>
+        <item name="android:layout_marginStart">60sp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewRecycler">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewSplash">
+        <item name="android:layout_width">@dimen/dimen00dp</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewAuthorization">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+
+    </style>
+
+    <style name="imageViewIconBig">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewIconAppSmall">
+        <item name="android:layout_width">@dimen/dimen60dp</item>
+        <item name="android:layout_height">@dimen/dimen60dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="imageViewIconNavigation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:background">?attr/customBackgroundValueColorLight</item>
+    </style>
+
+    <style name="imageViewPhoto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/padding04dp</item>
+    </style>
+
+    <style name="linearLayoutVerticalMatchWrapCenter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutVerticalMatchWrapLeft">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">left</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutVerticalMatchWrapRight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">right</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutVerticalMatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutVerticalWrapWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalMatchMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalMatchWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalWrapWrapCenter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalMatchWrapRight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">right</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalMatchWrapLeft">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">left</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalWrapWrapOverview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">65dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/padding04dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="linearLayoutHorizontalWrapWrapFloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/dimen00dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="navigationView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">?attr/customBackgroundValueColorLight</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="progressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:progressDrawable">@drawable/custom_progress_bar</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="radioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableBottom">?android:attr/listChoiceIndicatorSingle</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:padding">@dimen/padding01dp</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="radioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+    </style>
+
+    <style name="recyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginTop">@dimen/dimen70dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+        <item name="android:layout_marginBottom">@dimen/dimen08dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:longClickable">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="scrollView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="tableLayout">
+        <item name="android:layout_width">@dimen/dimen00dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginTop">80dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+
+    <style name="textViewAppCompany">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewAppGoalBig">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewAppGoalSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewAppNameBig">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize_70sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewAppNameSmall">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding10dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize_36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textViewAppVersion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewDocument">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewTitleDark">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="textViewHeaderMotivational">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="textViewNameFloatingActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dimen02dp</item>
+        <item name="android:padding">@dimen/padding06dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/textSize_18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:background">?attr/customBackgroundValueColorDark</item>
+    </style>
+
+    <style name="textViewMessage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorLight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSize_30sp</item>
+        <item name="android:layout_marginStart">@dimen/dimen08dp</item>
+        <item name="android:layout_marginEnd">@dimen/dimen08dp</item>
+    </style>
+
+    <style name="textViewOverview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewValueAdvice">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding30dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewValueAuthor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen00dp</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding08dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewValueVisible">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?attr/customTextValueColorDark</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewValueInvisible">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?attr/customTextValueColorDark</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewValueMotivation">
+        <item name="android:fontFamily">@font/abril_fatface</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/textSize_40sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+    </style>
+
+    <style name="textViewValueQuestion">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSize_14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textViewTitleCrud">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/customTextTitleColorDark</item>
+        <item name="android:fontFamily">@font/abril_fatface</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding02dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/textSize_36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="viewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="webView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+
+
+</resources>

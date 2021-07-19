@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menu_back"
+        android:icon="@drawable/button_icon_back_white_24dp"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/button_icon_home_white_24dp"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@drawable/button_icon_help_white_24dp"
+        android:title=""
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/menu_configurations"
+        android:title="@string/label_configurations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:title="@string/label_notifications"
+        app:showAsAction="never" />
+
+     <item
+        android:id="@+id/menu_mission"
+        android:title="@string/label_mission"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_company"
+        android:title="@string/label_company"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_terms"
+        android:title="@string/label_terms"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_policy"
+        android:title="@string/label_policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_sync"
+        android:title="@string/label_sync"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_reset_data"
+        android:title="@string/label_reset"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_about_application"
+        android:title="@string/label_application"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_contact_us"
+        android:title="@string/label_contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_credits"
+        android:title="@string/label_credits"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_donations"
+        android:title="@string/label_donations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_evaluation"
+        android:title="@string/label_evaluation"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_reset_password"
+        android:title="@string/label_reset_password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_change_password"
+        android:title="@string/label_change_password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_change_email"
+        android:title="@string/label_change_email"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_signout"
+        android:title="@string/label_signout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/label_logout"
+        app:showAsAction="never" />
+
+</menu>

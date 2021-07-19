@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    style="@style/cardView">
+
+    <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+        <ImageView
+            android:id="@+id/imageViewShared"
+            android:contentDescription="@string/content_description"
+            app:srcCompat="@drawable/application_bitmap_small"
+            style="@style/imageViewRecycler" />
+
+        <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <TextView
+                    android:text="@string/label_status"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueStatus"
+                    android:text="@string/label_status_new"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_experience"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueExperience"
+                    android:text="@string/label_experience_good"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_phases"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueSubPhase"
+                    android:text="@string/label_values"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mTextViewValueQuestion"
+                android:text="@string/app_name"
+                style="@style/textViewValueQuestion" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <ImageView
+                    android:contentDescription="@string/content_description"
+                    app:srcCompat="@drawable/item_icon_points_blue_24dp"
+                    style="@style/imageViewIconBig" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberPoints"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <ImageView
+                    android:contentDescription="@string/content_description"
+                    app:srcCompat="@drawable/main_icon_photo_blue_24dp"
+                    style="@style/imageViewIconBig" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberPhotos"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <ImageView
+                    android:contentDescription="@string/content_description"
+                    app:srcCompat="@drawable/item_icon_action_blue_24dp"
+                    style="@style/imageViewIconBig" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberActions"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <ImageView
+                    android:contentDescription="@string/content_description"
+                    app:srcCompat="@drawable/button_icon_share_blue_24dp"
+                    style="@style/imageViewIconBig" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberSharing"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <TextView
+                    android:text="@string/label_number"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumber"
+                    android:text="@string/label_screen_number_test_01"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_updated"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueUpdatedDate"
+                    android:text="@string/label_screen_date_test_01"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mTextViewValueId"
+        style="@style/textViewValueInvisible" />
+
+</androidx.cardview.widget.CardView>

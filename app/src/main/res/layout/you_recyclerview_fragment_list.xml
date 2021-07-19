@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layoutManager="LinearLayoutManager"
+    tools:listitem="@layout/you_recyclerview_fragment_item"
+    style="@style/constraintLayout">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:text="@string/message_data_not_exist"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayoutBottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/textViewMessage" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        style="@style/recyclerView"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutBottomButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/you_recyclerview_fragment_item">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottomButtons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+        style="@style/linearLayoutHorizontalMatchWrap">
+
+        <Button
+            android:id="@+id/buttonStatus"
+            style="@style/buttonCommon"
+            android:drawableTop="@drawable/button_icon_add_white_24dp"
+            android:text="@string/label_selection" />
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            style="@style/buttonCommon"
+            android:drawableTop="@drawable/button_icon_refresh_white_24dp"
+            android:text="@string/label_refresh" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

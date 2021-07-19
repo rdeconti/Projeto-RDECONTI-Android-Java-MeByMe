@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.prosper.day.module01main.ModuleControlMainActivity"
+    style="@style/constraintLayout">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAdviceData"
+        style="@style/webView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/border_1008"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout_horizontal_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewAppIcon"
+            style="@style/imageViewIconAppSmall"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/application_bitmap_small" />
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            style="@style/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/message_data_not_exist" />
+
+        <TextView
+            android:id="@+id/textViewHelp"
+            style="@style/textViewOverview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/message_data_not_exist" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_horizontal_buttons"
+        style="@style/linearLayoutHorizontalMatchWrap"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutAdviceData">
+
+        <Button
+            android:id="@+id/button_previous"
+            style="@style/buttonCommon"
+            android:text="@string/label_previous" />
+
+        <Button
+            android:id="@+id/button_stop"
+            style="@style/buttonCommon"
+            android:text="@string/label_stop" />
+
+        <Button
+            android:id="@+id/button_next"
+            style="@style/buttonCommon"
+            android:text="@string/label_next" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

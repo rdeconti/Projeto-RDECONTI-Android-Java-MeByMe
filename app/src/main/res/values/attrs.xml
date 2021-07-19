@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="customTextTitleColorDark" format="reference" />
+    <attr name="customTextTitleColorLight" format="reference" />
+
+    <attr name="customTextValueColorDark" format="reference" />
+    <attr name="customTextValueColorLight" format="reference" />
+
+    <attr name="customBackgroundValueColorDark" format="reference" />
+    <attr name="customBackgroundValueColorLight" format="reference" />
+
+</resources>

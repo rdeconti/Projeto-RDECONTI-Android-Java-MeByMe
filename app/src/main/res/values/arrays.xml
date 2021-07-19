@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <array name="application_settings_language_option_labels">
+        <item>@string/settings_language_label_english</item>
+        <item>@string/settings_language_label_portuguese</item>
+        <item>@string/settings_language_label_spanish</item>
+    </array>
+
+    <array name="application_settings_language_option_values">
+        <item>@string/settings_language_value_english</item>
+        <item>@string/settings_language_value_portuguese</item>
+        <item>@string/settings_language_value_spanish</item>
+    </array>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <array name="application_settings_theme_option_labels">
+        <item>@string/settings_theme_label_default</item>
+        <item>@string/settings_theme_label_amber</item>
+        <item>@string/settings_theme_label_blue</item>
+        <item>@string/settings_theme_label_brown</item>
+        <item>@string/settings_theme_label_cyan</item>
+        <item>@string/settings_theme_label_gray</item>
+        <item>@string/settings_theme_label_green</item>
+        <item>@string/settings_theme_label_indigo</item>
+        <item>@string/settings_theme_label_orange</item>
+        <item>@string/settings_theme_label_pink</item>
+        <item>@string/settings_theme_label_purple</item>
+        <item>@string/settings_theme_label_red</item>
+        <item>@string/settings_theme_label_teal</item>
+        <item>@string/settings_theme_label_yellow</item>
+    </array>
+
+    <array name="application_settings_theme_option_values">
+        <item>@string/settings_theme_value_default</item>
+        <item>@string/settings_theme_value_amber</item>
+        <item>@string/settings_theme_value_blue</item>
+        <item>@string/settings_theme_value_brown</item>
+        <item>@string/settings_theme_value_cyan</item>
+        <item>@string/settings_theme_value_gray</item>
+        <item>@string/settings_theme_value_green</item>
+        <item>@string/settings_theme_value_indigo</item>
+        <item>@string/settings_theme_value_orange</item>
+        <item>@string/settings_theme_value_pink</item>
+        <item>@string/settings_theme_value_purple</item>
+        <item>@string/settings_theme_value_red</item>
+        <item>@string/settings_theme_value_teal</item>
+        <item>@string/settings_theme_value_yellow</item>
+    </array>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+
+    <array name="user_countries">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_country_afghanistan</item>
+        <item>@string/settings_country_albania</item>
+        <item>@string/settings_country_algeria</item>
+        <item>@string/settings_country_american_samoa</item>
+        <item>@string/settings_country_andorra</item>
+        <item>@string/settings_country_angola</item>
+        <item>@string/settings_country_anguilla</item>
+        <item>@string/settings_country_antartica</item>
+        <item>@string/settings_country_antigua_and_barbuda</item>
+        <item>@string/settings_country_argentina</item>
+        <item>@string/settings_country_armenia</item>
+        <item>@string/settings_country_aruba</item>
+        <item>@string/settings_country_australia</item>
+        <item>@string/settings_country_austria</item>
+        <item>@string/settings_country_azerbaijan</item>
+        <item>@string/settings_country_bahamas</item>
+        <item>@string/settings_country_bahrain</item>
+        <item>@string/settings_country_bangladesh</item>
+        <item>@string/settings_country_barbados</item>
+        <item>@string/settings_country_belarus</item>
+        <item>@string/settings_country_belgium</item>
+        <item>@string/settings_country_belize</item>
+        <item>@string/settings_country_benin</item>
+        <item>@string/settings_country_bermuda</item>
+        <item>@string/settings_country_bhutan</item>
+        <item>@string/settings_country_bolivia</item>
+        <item>@string/settings_country_bosnia_and_herzegovina</item>
+        <item>@string/settings_country_botswana</item>
+        <item>@string/settings_country_brazil</item>
+        <item>@string/settings_country_british_indian_ocean_territory</item>
+        <item>@string/settings_country_british_virgin_islands</item>
+        <item>@string/settings_country_brunei</item>
+        <item>@string/settings_country_bulgaria</item>
+        <item>@string/settings_country_burkina_faso</item>
+        <item>@string/settings_country_burundi</item>
+        <item>@string/settings_country_cabo_verde</item>
+        <item>@string/settings_country_cambodia</item>
+        <item>@string/settings_country_cameroon</item>
+        <item>@string/settings_country_canada</item>
+        <item>@string/settings_country_cayman_islands</item>
+        <item>@string/settings_country_central_african_republic</item>
+        <item>@string/settings_country_chad</item>
+        <item>@string/settings_country_chile</item>
+        <item>@string/settings_country_china</item>
+        <item>@string/settings_country_christmas_island</item>
+        <item>@string/settings_country_cocos_islands</item>
+        <item>@string/settings_country_colombia</item>
+        <item>@string/settings_country_comoros</item>
+        <item>@string/settings_country_congo</item>
+        <item>@string/settings_country_cook_islands</item>
+        <item>@string/settings_country_costa_rica</item>
+        <item>@string/settings_country_côte_d_ivoire</item>
+        <item>@string/settings_country_croatia</item>
+        <item>@string/settings_country_cuba</item>
+        <item>@string/settings_country_curaçao</item>
+        <item>@string/settings_country_cyprus</item>
+        <item>@string/settings_country_czech_republic_czechia</item>
+        <item>@string/settings_country_denmark</item>
+        <item>@string/settings_country_djibouti</item>
+        <item>@string/settings_country_dominica</item>
+        <item>@string/settings_country_dominican_republic</item>
+        <item>@string/settings_country_dr_congo</item>
+        <item>@string/settings_country_ecuador</item>
+        <item>@string/settings_country_egypt</item>
+        <item>@string/settings_country_el_salvador</item>
+        <item>@string/settings_country_equatorial_guinea</item>
+        <item>@string/settings_country_eritrea</item>
+        <item>@string/settings_country_estonia</item>
+        <item>@string/settings_country_eswatini</item>
+        <item>@string/settings_country_ethiopia</item>
+        <item>@string/settings_country_faeroe_islands</item>
+        <item>@string/settings_country_falkland_islands</item>
+        <item>@string/settings_country_fiji</item>
+        <item>@string/settings_country_finland</item>
+        <item>@string/settings_country_france</item>
+        <item>@string/settings_country_french_polynesia</item>
+        <item>@string/settings_country_gabon</item>
+        <item>@string/settings_country_gambia</item>
+        <item>@string/settings_country_georgia</item>
+        <item>@string/settings_country_germany</item>
+        <item>@string/settings_country_ghana</item>
+        <item>@string/settings_country_gibraltar</item>
+        <item>@string/settings_country_greece</item>
+        <item>@string/settings_country_greenland</item>
+        <item>@string/settings_country_grenada</item>
+        <item>@string/settings_country_guam</item>
+        <item>@string/settings_country_guatemala</item>
+        <item>@string/settings_country_guernsey</item>
+        <item>@string/settings_country_guinea</item>
+        <item>@string/settings_country_guinea_bissau</item>
+        <item>@string/settings_country_guyana</item>
+        <item>@string/settings_country_haiti</item>
+        <item>@string/settings_country_holy_see</item>
+        <item>@string/settings_country_honduras</item>
+        <item>@string/settings_country_hong_kong</item>
+        <item>@string/settings_country_hungary</item>
+        <item>@string/settings_country_iceland</item>
+        <item>@string/settings_country_india</item>
+        <item>@string/settings_country_indonesia</item>
+        <item>@string/settings_country_iran</item>
+        <item>@string/settings_country_iraq</item>
+        <item>@string/settings_country_ireland</item>
+        <item>@string/settings_country_isle_of_man</item>
+        <item>@string/settings_country_israel</item>
+        <item>@string/settings_country_italy</item>
+        <item>@string/settings_country_jamaica</item>
+        <item>@string/settings_country_japan</item>
+        <item>@string/settings_country_jersey</item>
+        <item>@string/settings_country_jordan</item>
+        <item>@string/settings_country_kazakhstan</item>
+        <item>@string/settings_country_kenya</item>
+        <item>@string/settings_country_kiribati</item>
+        <item>@string/settings_country_kuwait</item>
+        <item>@string/settings_country_kyrgyzstan</item>
+        <item>@string/settings_country_laos</item>
+        <item>@string/settings_country_latvia</item>
+        <item>@string/settings_country_lebanon</item>
+        <item>@string/settings_country_lesotho</item>
+        <item>@string/settings_country_liberia</item>
+        <item>@string/settings_country_libya</item>
+        <item>@string/settings_country_liechtenstein</item>
+        <item>@string/settings_country_lithuania</item>
+        <item>@string/settings_country_luxembourg</item>
+        <item>@string/settings_country_macao</item>
+        <item>@string/settings_country_madagascar</item>
+        <item>@string/settings_country_malawi</item>
+        <item>@string/settings_country_malaysia</item>
+        <item>@string/settings_country_maldives</item>
+        <item>@string/settings_country_mali</item>
+        <item>@string/settings_country_malta</item>
+        <item>@string/settings_country_marshall_islands</item>
+        <item>@string/settings_country_mauritania</item>
+        <item>@string/settings_country_mauritius</item>
+        <item>@string/settings_country_mayotte</item>
+        <item>@string/settings_country_mexico</item>
+        <item>@string/settings_country_micronesia</item>
+        <item>@string/settings_country_moldova</item>
+        <item>@string/settings_country_monaco</item>
+        <item>@string/settings_country_mongolia</item>
+        <item>@string/settings_country_montenegro</item>
+        <item>@string/settings_country_montserrat</item>
+        <item>@string/settings_country_morocco</item>
+        <item>@string/settings_country_mozambique</item>
+        <item>@string/settings_country_myanmar</item>
+        <item>@string/settings_country_namibia</item>
+        <item>@string/settings_country_nauru</item>
+        <item>@string/settings_country_nepal</item>
+        <item>@string/settings_country_netherlands</item>
+        <item>@string/settings_country_new_caledonia</item>
+        <item>@string/settings_country_new_zealand</item>
+        <item>@string/settings_country_nicaragua</item>
+        <item>@string/settings_country_niger</item>
+        <item>@string/settings_country_nigeria</item>
+        <item>@string/settings_country_niue</item>
+        <item>@string/settings_country_north_korea</item>
+        <item>@string/settings_country_north_macedonia</item>
+        <item>@string/settings_country_northern_mariana_islands</item>
+        <item>@string/settings_country_norway</item>
+        <item>@string/settings_country_oman</item>
+        <item>@string/settings_country_pakistan</item>
+        <item>@string/settings_country_palau</item>
+        <item>@string/settings_country_panama</item>
+        <item>@string/settings_country_papua_new_guinea</item>
+        <item>@string/settings_country_paraguay</item>
+        <item>@string/settings_country_peru</item>
+        <item>@string/settings_country_philippines</item>
+        <item>@string/settings_country_pitcairn_islands</item>
+        <item>@string/settings_country_poland</item>
+        <item>@string/settings_country_portugal</item>
+        <item>@string/settings_country_puerto_rico</item>
+        <item>@string/settings_country_qatar</item>
+        <item>@string/settings_country_réunion</item>
+        <item>@string/settings_country_romania</item>
+        <item>@string/settings_country_russia</item>
+        <item>@string/settings_country_rwanda</item>
+        <item>@string/settings_country_saint_barthelemy</item>
+        <item>@string/settings_country_saint_helena</item>
+        <item>@string/settings_country_saint_kitts_nevis</item>
+        <item>@string/settings_country_saint_lucia</item>
+        <item>@string/settings_country_saint_martin</item>
+        <item>@string/settings_country_saint_pierre_miquelon</item>
+        <item>@string/settings_country_samoa</item>
+        <item>@string/settings_country_san_marino</item>
+        <item>@string/settings_country_sao_tome_principe</item>
+        <item>@string/settings_country_saudi_arabia</item>
+        <item>@string/settings_country_senegal</item>
+        <item>@string/settings_country_serbia</item>
+        <item>@string/settings_country_seychelles</item>
+        <item>@string/settings_country_sierra_leone</item>
+        <item>@string/settings_country_singapore</item>
+        <item>@string/settings_country_sint_maarten</item>
+        <item>@string/settings_country_slovakia</item>
+        <item>@string/settings_country_slovenia</item>
+        <item>@string/settings_country_solomon_islands</item>
+        <item>@string/settings_country_somalia</item>
+        <item>@string/settings_country_south_africa</item>
+        <item>@string/settings_country_south_korea</item>
+        <item>@string/settings_country_south_sudan</item>
+        <item>@string/settings_country_spain</item>
+        <item>@string/settings_country_sri_lanka</item>
+        <item>@string/settings_country_st._vincent_grenadines</item>
+        <item>@string/settings_country_state_of_palestine</item>
+        <item>@string/settings_country_sudan</item>
+        <item>@string/settings_country_suriname</item>
+        <item>@string/settings_country_svalbard_and_jan_mayen</item>
+        <item>@string/settings_country_sweden</item>
+        <item>@string/settings_country_switzerland</item>
+        <item>@string/settings_country_syria</item>
+        <item>@string/settings_country_taiwan</item>
+        <item>@string/settings_country_tajikistan</item>
+        <item>@string/settings_country_tanzania</item>
+        <item>@string/settings_country_thailand</item>
+        <item>@string/settings_country_timor_leste</item>
+        <item>@string/settings_country_togo</item>
+        <item>@string/settings_country_tokelau</item>
+        <item>@string/settings_country_tonga</item>
+        <item>@string/settings_country_trinidad_and_tobago</item>
+        <item>@string/settings_country_tunisia</item>
+        <item>@string/settings_country_turkey</item>
+        <item>@string/settings_country_turkmenistan</item>
+        <item>@string/settings_country_turks_and_caicos</item>
+        <item>@string/settings_country_tuvalu</item>
+        <item>@string/settings_country_u.s._virgin_islands</item>
+        <item>@string/settings_country_uganda</item>
+        <item>@string/settings_country_ukraine</item>
+        <item>@string/settings_country_united_arab_emirates</item>
+        <item>@string/settings_country_united_kingdom</item>
+        <item>@string/settings_country_united_states</item>
+        <item>@string/settings_country_uruguay</item>
+        <item>@string/settings_country_uzbekistan</item>
+        <item>@string/settings_country_vanuatu</item>
+        <item>@string/settings_country_venezuela</item>
+        <item>@string/settings_country_vietnam</item>
+        <item>@string/settings_country_wallis_futuna</item>
+        <item>@string/settings_country_western_sahara</item>
+        <item>@string/settings_country_yemen</item>
+        <item>@string/settings_country_zambia</item>
+        <item>@string/settings_country_zimbabwe</item>
+    </array>
+
+    <array name="user_gender">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_gender_female</item>
+        <item>@string/settings_gender_male</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <array name="user_sexual_option">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_sexual_option_homosexual</item>
+        <item>@string/settings_sexual_option_heterosexual</item>
+        <item>@string/settings_sexual_option_bisexual</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <array name="user_marital_status">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_marital_status_single</item>
+        <item>@string/settings_marital_status_married</item>
+        <item>@string/settings_marital_status_widowed</item>
+        <item>@string/settings_marital_status_divorced</item>
+        <item>@string/settings_marital_status_separated</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <array name="user_scholarity">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_scholarity_never_attended_school</item>
+        <item>@string/settings_scholarity_illiterate</item>
+        <item>@string/settings_scholarity_reads_and_writes</item>
+        <item>@string/settings_scholarity_primary_incomplete</item>
+        <item>@string/settings_scholarity_primary_complete</item>
+        <item>@string/settings_scholarity_middle_incomplete</item>
+        <item>@string/settings_scholarity_middle_complete</item>
+        <item>@string/settings_scholarity_college_incomplete</item>
+        <item>@string/settings_scholarity_college_complete</item>
+        <item>@string/settings_scholarity_postgraduate</item>
+        <item>@string/settings_scholarity_doctoral</item>
+        <item>@string/settings_scholarity_baccalaureate</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <array name="user_languages">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_language_label_english</item>
+        <item>@string/settings_language_label_portuguese</item>
+        <item>@string/settings_language_label_spanish</item>
+    </array>
+
+    <array name="user_race">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_language_label_english</item>
+        <item>@string/settings_language_label_portuguese</item>
+        <item>@string/settings_language_label_spanish</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <array name="user_religion">
+        <item>@string/settings_choose_one_option</item>
+        <item>@string/settings_language_label_english</item>
+        <item>@string/settings_language_label_portuguese</item>
+        <item>@string/settings_language_label_spanish</item>
+        <item>@string/settings_other_option</item>
+    </array>
+
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+    <!-- *************************************************************************************** -->
+
+    }
+
+
+
+</resources>

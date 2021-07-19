@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- ****************************************************************************** APP DATA -->
+        <string name="app_goal">Empoderamento Pessoal</string>
+        <string name="app_version">Versão 1.0</string>
+        <string name="app_basic">Básica</string>
+
+        <!-- ******************************************************************************* ADVICES -->
+        <string name="label_advice_ignore_greater_close">You ignore more question than close it. It is a good ides to review!</string>
+        <string name="label_advice_new_equal_100">You must to answer the questions: 100% without answer is not good!</string>
+        <string name="label_without_advice">No advice available!</string>
+
+        <!-- ********************************************************************************** HINT -->
+        <string name="hint_email">Enter your email address</string>
+        <string name="hint_old_email">Enter your old email</string>
+        <string name="hint_new_email">Enter your new email</string>
+        <string name="hint_password">Enter your password code</string>
+        <string name="hint_old_password">Enter your old password</string>
+        <string name="hint_new_password">Enter your new password</string>
+
+        <!-- ****************************************************************************** MESSAGES -->
+        <string name="message_process_done">Process done</string>
+        <string name="message_wait_by_processing">Wait by processing</string>
+        <string name="message_data_not_exist">Data does not exist</string>
+        <string name="message_NetworkNotAvailableLogin">"Network is not available, but, you can check recipes in local lists! Try network lists again later!"</string>
+        <string name="message_confirm_logout">Do you want to exit application?</string>
+        <string name="message_maintain_created">Creation done with success!</string>
+        <string name="message_maintain_updated">Update done with success!</string>
+        <string name="message_maintain_deleted">Deletion done with success</string>
+        <string name="message_recognize_speech_error_device">Your device not support recognize speech</string>
+        <string name="message_text_to_speech_language_error">Language not supported</string>
+
+        <string name="message_error_date_time">Error date/time:</string>
+        <string name="message_error_activity">Error activity:</string>
+        <string name="message_error_code">Error code:</string>
+        <string name="message_error_details">Error details:</string>
+        <string name="message_error_cause">Error cause:</string>
+        <string name="message_error_class">Error class:</string>
+        <string name="message_error_message">Error message:</string>
+        <string name="message_password_short">Password with minimum 6 characters</string>
+        <string name="message_user_reset_success">Reset password was done! Email was sent with instructions!</string>
+        <string name="message_user_reset_failed">Reset password NOT done! Please, contact us!</string>
+        <string name="message_user_signIn_success">Account created!</string>
+        <string name="message_user_signIn_failed">SignIn NOT done! Please, contact us!</string>
+        <string name="message_user_logIn_failed">LogIn NOT done! Please, contact us!</string>
+        <string name="message_user_logout_success">logout was done!</string>
+        <string name="message_user_signOut_success">SignOut was done!</string>
+        <string name="message_user_signOut_failed">SignOut NOT done! Please, contact us!</string>
+        <string name="message_user_changeEmail_success">Email changed!</string>
+        <string name="message_user_changeEmail_failed">Email NOT changed! Please, contact us!</string>
+        <string name="message_user_changeEmail_different">Emails must be different!</string>
+        <string name="message_user_changeEmail_old_empty">Enter your old email!</string>
+        <string name="message_user_changeEmail_new_empty">Enter your new email!</string>
+        <string name="message_user_changePassword_success">Password changed!</string>
+        <string name="message_user_changePassword_failed">Password NOT changed! Please, contact us!</string>
+        <string name="message_user_changePassword_different">Passwords must be different!</string>
+        <string name="message_user_changePassword_old_empty">Enter your old password!</string>
+        <string name="message_user_changePassword_new_empty">Enter your new password!</string>
+        <string name="message_userEmail">Enter your email address</string>
+        <string name="message_user_password">Enter your password code</string>
+        <string name="message_user_please_login">Please LogIn!</string>
+        <string name="message_network_not_available">Network is not available. Please try again later!</string>
+        <string name="message_maintain_displayed">Display done with success</string>
+
+        <!-- ******************************************************************************** LABELS -->
+        <string name="label_report">Report</string>
+        <string name="label_motivation">Motivação</string>
+        <string name="label_save_login">Salvar dados de entrada</string>
+        <string name="label_evolution">Evolução</string>
+        <string name="label_analysis">Análises</string>
+        <string name="label_diary">Diário</string>
+        <string name="label_challenge">Desafio</string>
+        <string name="label_book">Livro</string>
+        <string name="label_costs">Custos</string>
+        <string name="label_overview">Visão geral</string>
+        <string name="label_points">Pontos</string>
+        <string name="label_number_photos">Fotos</string>
+        <string name="label_number_actions">Ações</string>
+        <string name="label_number_sharing">Compatilhados</string>
+        <string name="label_user">Usuário</string>
+        <string name="label_sharing">Compartilhados</string>
+        <string name="label_needs">Necessidades</string>
+        <string name="label_question">Questão</string>
+        <string name="label_answer">Resposta</string>
+        <string name="label_reset">Reiniciar</string>
+        <string name="label_sync">Sincronizar</string>
+        <string name="label_help">Ajuda</string>
+        <string name="label_company">Compania</string>
+        <string name="label_phases">Fases</string>
+        <string name="label_tools">Ferramentas</string>
+        <string name="label_utilities">Utilidades</string>
+
+        <!-- ******************************************************************* LIST STATUS BUTTONS -->
+        <string name="label_list_all">Exibir todos</string>
+        <string name="label_list_new">Exibir novos</string>
+        <string name="label_list_pending">Exibir pendentes</string>
+        <string name="label_list_closed">Exibir encerrados</string>
+        <string name="label_list_ignored">Exibir ignorados</string>
+        <string name="label_list_delayed">Exibir atrasados</string>
+        <string name="label_list_postponed">Exibir postergados</string>
+
+        <!-- **************************************************************** LIST FREQUENCY BUTTONS -->
+        <string name="label_frequency_list_daily">List daily</string>
+        <string name="label_frequency_list_weekly">List weekly</string>
+        <string name="label_frequency_list_monthly">List monthly</string>
+        <string name="label_frequency_list_annual">List annual</string>
+        <string name="label_frequency_list_none">List none</string>
+
+        <!-- **************************************************************************** LIST COSTS -->
+        <string name="label_costs_list_high">List costs high</string>
+        <string name="label_costs_list_medium">List costs medium</string>
+        <string name="label_costs_list_low">List costs low</string>
+        <string name="label_costs_list_none">List costs none</string>
+
+        <!-- **************************************************************************** LIST COSTS -->
+        <string name="label_priority_list_none">List priority none</string>
+
+        <!-- ********************************************************************************* TEXTS -->
+        <string name="text_diary">Describe how was your day here!</string>
+    <string name="text_challenge">Describe how to complete this challenge!</string>
+        <string name="text_mood">Describe which event caused this mood!</string>
+        <string name="text_autobiography">Describe a piece of your life here!</string>
+        <string name="text_recognition">Do you recognize this characteristic?</string>
+        <string name="text_reflection">Describe this reflection to you here!</string>
+
+        <!-- ****************************************************************************** MENU BAR -->
+        <string name="label_configurations">Configurações</string>
+        <string name="label_notifications">Notificações</string>
+        <string name="label_mission">Missão</string>
+        <string name="label_terms">Termos</string>
+        <string name="label_policy">Política de privacidade</string>
+        <string name="label_application">Applicação</string>
+        <string name="label_contact">Contato</string>
+        <string name="label_credits">Créditos</string>
+        <string name="label_donations">Doações</string>
+        <string name="label_evaluation">Avaliação</string>
+
+        <!-- ************************************************************************* AUTHORIZATION -->
+        <string name="label_authorization">Autorização</string>
+        <string name="label_reset_password">Reiniciar senha</string>
+        <string name="label_change_password">Alterar senha</string>
+        <string name="label_change_email">Alterar email</string>
+
+        <string name="label_login">Entrar</string>
+        <string name="label_logout">Sair</string>
+        <string name="label_signin">Criar conta</string>
+        <string name="label_signout">Encerrar conta</string>
+        <string name="label_changePassword">Alterar senha</string>
+        <string name="label_changeEmail">Alterar email</string>
+
+        <!-- ************************************************************** ALERT DIALOG - AGREEMENT -->
+        <string name="label_alert_dialog_agreement">"Acordo do usuário"</string>
+        <string name="label_alert_dialog_agreement_title">"Alerta de usuário"</string>
+        <string name="label_alert_dialog_agreement_continue">Continuar</string>
+        <string name="label_alert_dialog_agreement_stop">Parar</string>
+        <string name="label_alert_dialog_agreement_yes">Sim</string>
+        <string name="label_alert_dialog_agreement_no">Não</string>
+
+        <!-- ******************************************************** ALERT DIALOG - SHARING OPTIONS -->
+        <string name="label_alert_dialog_sharing_message">"Choose on option"</string>
+
+        <!-- ********************************************************************************** MOOD -->
+        <string name="label_mood">Mood</string>
+        <string name="label_mood_very_sad">Very sad</string>
+        <string name="label_mood_sad">Sad</string>
+        <string name="label_mood_anxious">Anxious</string>
+        <string name="label_mood_indifferent">Indifferent</string>
+        <string name="label_mood_happy">Happy</string>
+        <string name="label_mood_very_happy">Very happy</string>
+
+    <!-- ******************************************************************************** ACTION -->
+        <string name="label_action_answer_text">Describe here your answer …</string>
+
+        <!-- ********************************************************************************* DIARY -->
+
+        <!-- ************************************************************************* AUTOBIOGRAPHY -->
+        <string name="label_autobiography">Autobiography</string>
+
+        <string name="label_advice">Consejo</string>
+        <string name="label_family">Family</string>
+        <string name="label_relatives">Relatives</string>
+        <string name="label_friends">Friends</string>
+        <string name="label_enemies">Enemies</string>
+        <string name="label_education">Education</string>
+        <string name="label_jobs">Jobs</string>
+        <string name="label_challenges">Challenges</string>
+        <string name="label_memories">Memories</string>
+        <string name="label_wins">Wins</string>
+        <string name="label_defeats">Defeats</string>
+        <string name="label_forgiveness">Forgiveness</string>
+        <string name="label_gratitude">Gratitude</string>
+        <string name="label_secrets">Secrets</string>
+        <string name="label_safety">Safety</string>
+
+        <string name="label_autobiography_phase_one">Phase one</string>
+        <string name="label_autobiography_phase_two">Phase two</string>
+        <string name="label_autobiography_phase_three">Phase three</string>
+        <string name="label_autobiography_phase_four">Phase four</string>
+        <string name="label_autobiography_phase_five">Phase five</string>
+        <string name="label_autobiography_phase_six">Phase six</string>
+        <string name="label_autobiography_phase_seven">Phase seven</string>
+        <string name="label_autobiography_phase_eight">Phase eight</string>
+        <string name="label_autobiography_phase_nine">Phase nine</string>
+
+        <string name="label_autobiography_answer_text">Describe your answer here …</string>
+        <string name="label_recognition_answer_text">Describe your answer here …</string>
+        <string name="label_belief_answer_text">Describe your answer here …</string>
+        <string name="label_personality_answer_text">Describe your answer here …</string>
+        <string name="label_life_answer_text">Describe your answer here …</string>
+        <string name="label_mood_answer_text">Describe your answer here …</string>
+        <string name="label_reflection_answer_text">Describe your answer here …</string>
+        <string name="label_challenge_answer_text">Describe your answer here …</string>
+        <string name="label_diary_answer_text">Describe your answer here …</string>
+        <string name="label_photo_answer_text">Describe your answer here …</string>
+        <string name="label_sharing_answer_text">Describe your answer here …</string>
+        <string name="label_autobiography_question_not_found">Autobiography question not found</string>
+
+        <!-- *************************************************************************** RECOGNITION -->
+        <string name="label_recognition">Recognition</string>
+        <string name="label_weaknesses">Weaknesses</string>
+        <string name="label_strengths">Strengths</string>
+        <string name="label_skills">Skills</string>
+        <string name="label_values">Values</string>
+        <string name="label_sabotage">Sabotage</string>
+        <string name="label_limits">Limtis</string>
+        <string name="label_emotions">Emotions</string>
+        <string name="label_fears">Fears</string>
+        <string name="label_sins">Sins</string>
+        <string name="label_virtues">Virtues</string>
+
+        <!-- ******************************************************************************** BELIEF -->
+        <string name="label_belief">Belief</string>
+        <string name="label_angel">Angels</string>
+        <string name="label_aztec">Aztec</string>
+        <string name="label_brazilian">Brazilian</string>
+        <string name="label_celtic">Celtic</string>
+        <string name="label_chinese">Chinese</string>
+        <string name="label_gypsy">Gypsy</string>
+        <string name="label_egyptian">Egyptian</string>
+        <string name="label_indian">Indian</string>
+        <string name="label_mayan">Mayan</string>
+        <string name="label_occidental">Occidental</string>
+        <string name="label_shamanic">Shamanic</string>
+        <string name="label_numerology">Numerology</string>
+        <string name="label_birthdate">Birthdate</string>
+
+        <!-- *************************************************************************** PERSONALITY -->
+        <string name="label_personality">Personality</string>
+
+        <!-- ********************************************************************************** LIFE -->
+        <string name="label_life">Life</string>
+        <string name="label_mental">Mental</string>
+        <string name="label_physical">Physical</string>
+        <string name="label_personal">Personal</string>
+        <string name="label_social">Social</string>
+        <string name="label_familiar">Familiar</string>
+        <string name="label_community">Community</string>
+        <string name="label_love">Love</string>
+        <string name="label_sexual">Sexual</string>
+        <string name="label_religion">Religion</string>
+        <string name="label_emotional">Emotional</string>
+        <string name="label_cultural">Cultural</string>
+        <string name="label_intellectual">Intellectual</string>
+        <string name="label_professional">Professional</string>
+        <string name="label_financial">Financial</string>
+        <string name="label_recreation">Recreation</string>
+        <string name="label_environment">Environment</string>
+
+        <!-- ******************************************************************************** ACTION -->
+        <string name="label_actions">Actions</string>
+        <string name="label_action">Action</string>
+
+        <!-- **************************************************************************** REFLECTION -->
+        <string name="label_reflection">Reflection</string>
+        <string name="label_reflection_01">Reflection 1</string>
+        <string name="label_reflection_02">Reflection 2</string>
+        <string name="label_reflection_03">Reflection 3</string>
+        <string name="label_reflection_04">Reflection 4</string>
+        <string name="label_reflection_05">Reflection 5</string>
+
+        <!-- ***************************************************************************** BIORHYTHM -->
+        <string name="label_biorhythm">Biorhythm</string>
+
+        <!-- ****************************************************************************** PRIORITY -->
+        <string name="label_priority">Priority</string>
+        <string name="label_high">High</string>
+        <string name="label_medium">Medium</string>
+        <string name="label_low">Low</string>
+        <string name="label_none">None</string>
+
+        <!-- ***************************************************************************** FREQUENCY -->
+        <string name="label_frequency">Frequency</string>
+        <string name="label_daily">Daily</string>
+        <string name="label_weekly">Weekly</string>
+        <string name="label_monthly">Monthly</string>
+        <string name="label_annual">Annual</string>
+
+        <!-- ******************************************************************************** STATUS -->
+        <string name="label_status">Status</string>
+        <string name="label_status_new">New</string>
+        <string name="label_status_pending">Pending</string>
+        <string name="label_status_closed">Closed</string>
+        <string name="label_status_ignored">Ignored</string>
+        <string name="label_status_postponed">Postponed</string>
+
+        <!-- ******************************************************************************* BUTTONS -->
+        <string name="label_chart_pie">Chart Pie</string>
+        <string name="label_chart_bar">Chart Bar</string>
+        <string name="label_back">Back</string>
+    <string name="label_change">Change</string>
+        <string name="label_cancel">Cancel</string>
+        <string name="label_created">Created</string>
+        <string name="label_updated">Updated</string>
+        <string name="label_save">Save</string>
+        <string name="label_photos">Photos</string>
+        <string name="label_selection">Selection</string>
+        <string name="label_recorder">Recorder</string>
+        <string name="label_speaker">Speaker</string>
+        <string name="label_repeat">Repeat</string>
+        <string name="label_pause">Pause</string>
+        <string name="label_stop">Stop</string>
+
+        <!-- ****************************************************************************** SETTINGS -->
+    <string name="settings_language_label_english">english</string>
+        <string name="settings_language_label_portuguese">portuguese</string>
+        <string name="settings_language_label_spanish">spanish</string>
+        <string name="settings_language_label">Language</string>
+
+        <string name="message_TermsAndConditions">
+        Terms and conditions - It is very important that you read and accept our terms and conditions of use. Please check it!
+    </string>
+
+        <string name="app_AboutUs">
+        This text must be redone.
+    </string>
+
+    <string name="label_grade">Nota</string>
+    <string name="label_share">Share</string>
+    <string name="message_maintain_sharing">Compartilhamento hecho con exito!</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_device">Mobile</string>
+    <string name="label_remove">Borrar</string>
+    <string name="label_previous">Anterior</string>
+    <string name="label_next">Próxima</string>
+    <string name="share_recognition_title">MeByMe - Fase de reconhecimento</string>
+    <string name="share_recognition_body">Eu estou utilizando o MeByMe - estou na fase de reconhecimento</string>
+    <string name="label_refresh">Actualizar</string>
+    <string name="share_life_title">MeByMe - Life phase</string>
+    <string name="share_life_body">I am using MeByMe - this is my life phase</string>
+    <string name="share_mood_title">MeByMe - Mood phase</string>
+    <string name="share_mood_body">I am using MeByMe - this is my mood phase</string>
+    <string name="share_autobiography_body">I am using MeByMe - this is my autobiography phase</string>
+    <string name="share_autobiography_title">MeByMe - Autobiography phase</string>
+    <string name="share_belief_title">MeByMe - Belief phase</string>
+    <string name="share_belief_body">I am using MeByMe - this is my belief phase</string>
+    <string name="share_personality_title">MeByMe - Personality phase</string>
+    <string name="share_personality_body">I am using MeByMe - this is my personality phase</string>
+    <string name="share_action_title">MeByMe - Action phase</string>
+    <string name="share_action_body">I am using MeByMe - this is my action phase</string>
+    <string name="share_reflection_title">MeByMe - Reflection phase</string>
+    <string name="share_reflection_body">I am using MeByMe - this is my reflection phase</string>
+    <string name="share_biorhythm_title">MeByMe - Biorhythm phase</string>
+    <string name="share_biorhythm_body">I am using MeByMe - this is my biorhythm phase</string>
+    <string name="share_challenge_title">MeByMe - Challenge phase</string>
+    <string name="share_challenge_body">I am using MeByMe - this is my challenge phase</string>
+    <string name="share_diary_title">MeByMe - Diary phase</string>
+    <string name="share_diary_body">I am using MeByMe - this is my diary phase</string>
+    <string name="share_photo_title">MeByMe - Photo phase</string>
+    <string name="share_photo_body">I am using MeByMe - this is my photo phase</string>
+    <string name="share_feedback_title">MeByMe - Feedback phase</string>
+    <string name="share_feedback_body">I am using MeByMe - this is my feedback phase</string>
+    <string name="label_you">Usted</string>
+    <string name="label_guru">Guru</string>
+    <string name="label_feedback">Feedback</string>
+    <string name="label_main">Principal</string>
+    <string name="label_yearly">Anual</string>
+    <string name="label_maintenance">Mantenimiento</string>
+    <string name="label_not_found">Não encontrado</string>
+    <string name="label_meaning">Significado</string>
+    <string name="label_origin_surname">Origem do sobrenome</string>
+    <string name="label_coat_arms">Brasão de armas</string>
+    <string name="label_live_days">Dias de vida</string>
+    <string name="label_live_stage">Estágio de vida</string>
+    <string name="label_heart_beats">Batimentos cardíacos</string>
+    <string name="label_respiratory_frequency">Frequência respiratória</string>
+    <string name="label_birthplace">Local de nascimento</string>
+    <string name="label_gender">Genêro</string>
+    <string name="label_sexual_option">Opção sexual</string>
+    <string name="label_race">Raça</string>
+    <string name="label_marital_status">Estado civil</string>
+    <string name="label_scholarity">Escolaridade</string>
+    <string name="label_body_mass_index">Indice de massa corporal</string>
+    <string name="label_life_expectancy">Expectativa de vida</string>
+    <string name="label_delete">Excluir</string>
+    <string name="label_phrase">Frase</string>
+    <string name="label_user_points">Pontos usuário</string>
+    <string name="label_word">Palavra</string>
+    <string name="phase_reset">Reempezar fase</string>
+    <string name="label_alert_dialog_reset">Reiniciar usuário</string>
+    <string name="label_alert_dialog_reset_title">Alerta para usuário</string>
+    <string name="label_alert_dialog_reset_continue">Continuar</string>
+    <string name="label_alert_dialog_reset_stop">Parar</string>
+    <string name="label_alert_dialog_reset_yes">Sim</string>
+    <string name="label_alert_dialog_reset_no">Não</string>
+    <string name="label_feedbackFrom">Opnião de</string>
+    <string name="share_feedbackFrom_title">Opnião de</string>
+    <string name="share_feedbackFrom_body">Descrição da opnião</string>
+    <string name="message_confirm_reset">Você quer inicializar todos os dados da aplicação?</string>
+    <string name="label_alert_dialog_initialize">Inicializar applicativo</string>
+    <string name="label_alert_dialog_initialize_title">Alerta ao usuário</string>
+    <string name="label_alert_dialog_initialize_continue">Continuar</string>
+    <string name="label_alert_dialog_initialize_stop">Parar</string>
+    <string name="label_alert_dialog_initialize_yes">Sim</string>
+    <string name="label_alert_dialog_initialize_no">Não</string>
+    <string name="message_confirm_initialize">Podemos inicializar sua aplicação? Será necessário ter a rede disponível!</string>
+    <string name="message_application_create_data">Nós estamos criando dados para a fase da aplicação! Aguarde um momento!</string>
+    <string name="message_application_problem">Nós temos um problema e estamos trabalhando para resolver!</string>
+    <string name="message_application_word">MeByMe para ser melhor</string>
+    <string name="label_event">Evento</string>
+    <string name="label_approved">Aprovado</string>
+    <string name="label_reproved">Rerpovado</string>
+    <string name="label_biorhythm_approved">Biorritimo aprovado</string>
+    <string name="label_biorhythm_reproved">Biorritimo reprovado</string>
+    <string name="label_intellectual_negative">Intelectual negativo</string>
+    <string name="label_intellectual_critical">Intelectual crítico</string>
+    <string name="label_intellectual_positive">Intelectual positivo</string>
+    <string name="label_emotional_negative">Emocional negativo</string>
+    <string name="label_emotional_critical">Emocional crítico</string>
+    <string name="label_emotional_positive">Emocional positivo</string>
+    <string name="label_physical_negative">Físico negativo</string>
+    <string name="label_physical_critical">Físico crítico</string>
+    <string name="label_physical_positive">Físico positivo</string>
+    <string name="label_personality_questions">Personallidade Questões</string>
+    <string name="label_personality_result">Personallidade Resultado</string>
+    <string name="label_hippocrates_questions">Hippocrates Questões</string>
+    <string name="label_hippocrates_result">Hippocrates Resultados</string>
+    <string name="label_enneagram_questions">Eneagrama Questiões</string>
+    <string name="label_enneagram_result">Eneagrama Resultado</string>
+    <string name="label_behavioral_questions">Comportamental Questões</string>
+    <string name="label_behavioral_result">Comportamental Resultado</string>
+    <string name="label_neurolinguistics_questions">Neurolinguistica Questões</string>
+    <string name="label_neurolinguistics_result">Neurolinguistica Resultado</string>
+    <string name="label_hippocrates">Hipocrates</string>
+    <string name="label_enneagram">Eneagrama</string>
+    <string name="label_behavioral">Comportamental</string>
+    <string name="label_neurolinguistics">Neurolinguistica</string>
+    <string name="label_option_answer_yes">Sim</string>
+    <string name="label_option_answer_no">Não</string>
+    <string name="label_feedbackTo">Opinião para</string>
+    <string name="share_feedbackTo_title">Opinião título</string>
+    <string name="share_feedbackTo_body">Opinião corpo</string>
+    <string name="label_none_diary">Nenhum apontamento feito no diário ....</string>
+    <string name="label_length">Tamanho</string>
+    <string name="label_experience">Experiência</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_priority_short">Prior</string>
+    <string name="label_frequency_short">Freq</string>
+    <string name="label_experience_short">Exp</string>
+    <string name="label_experience_very_bad">Muito ruim</string>
+    <string name="label_experience_bad">Ruim</string>
+    <string name="label_experience_normal">Normal</string>
+    <string name="label_experience_good">Boa</string>
+    <string name="label_experience_very_good">Muito boa</string>
+    <string name="label_fab_status_new">Situação Nova</string>
+    <string name="label_fab_status_pending">Situação Pendente</string>
+    <string name="label_fab_status_closed">Situação Encerrada</string>
+    <string name="label_fab_status_ignored">Situação Ignorada</string>
+    <string name="label_fab_status_postponed">Situação Adiada</string>
+    <string name="label_fab_experience_very_bad">Experiencia Muito Ruim</string>
+    <string name="label_fab_experience_bad">Experiencia Ruim</string>
+    <string name="label_fab_experience_normal">Experiencia Normal</string>
+    <string name="label_fab_experience_good">Experiencia Boa</string>
+    <string name="label_fab_experience_very_good">Experiencia Muito Boa</string>
+    <string name="label_total">Total</string>
+    <string name="label_report_number">Relatório absoluto</string>
+    <string name="label_report_percent">Relatório percentual</string>
+    <string name="label_priority_list_medium">Lista prioridade média</string>
+    <string name="label_priority_list_low">Lista prioridade baixa</string>
+    <string name="label_priority_list_high">Lista prioridade alta</string>
+    <string name="settings_theme_label_default">Padrão</string>
+    <string name="settings_theme_label_amber">Ambar</string>
+    <string name="settings_theme_label_blue">Azul</string>
+    <string name="settings_theme_label_brown">Marrom</string>
+    <string name="settings_theme_label_cyan">Cyan</string>
+    <string name="settings_theme_label_gray">Cinza</string>
+    <string name="settings_theme_label_green">Verde</string>
+    <string name="settings_theme_label_indigo">Indigo</string>
+    <string name="settings_theme_label_orange">Laranja</string>
+    <string name="settings_theme_label_pink">Rosa</string>
+    <string name="settings_theme_label_purple">Violeta</string>
+    <string name="settings_theme_label_red">Vermelha</string>
+    <string name="settings_theme_label_teal">Teal</string>
+    <string name="settings_theme_label_yellow">Amarelo</string>
+    <string name="settings_theme_label">Tema</string>
+    <string name="settings_language_title">Idiomas da aplicação</string>
+    <string name="settings_theme_title">Temas de cores da aplicação</string>
+    <string name="label_number">Número</string>
+    <string name="label_nickname">Apelido</string>
+    <string name="label_language">Idioma</string>
+    <string name="label_password_info">Alteração de senha (última/próxima)</string>
+    <string name="label_sync_info">Sincronização (última/próxima)</string>
+    <string name="label_reset_info">Inicialização (útlima)</string>
+    <string name="label_type_your_data_here">Informe seus dados aqui ...</string>
+    <string name="label_unacquainted">No informado</string>
+    <string name="label_first_name">Primeiro nome</string>
+    <string name="label_last_name">Último nome</string>
+    <string name="label_complete_name">Nome completo</string>
+    <string name="label_birthCountry">País de nascimento</string>
+    <string name="label_height">Altura do usuário</string>
+    <string name="label_weight">Peso do usuário</string>
+    <string name="septenio01">1º setênio: é nosso nascer físico no qual temos a consciência do Eu</string>
+    <string name="septenio02">2º setênio: é o nosso nascer emocional no qual temos a vivência do Eu</string>
+    <string name="septenio03">3º setênio: é o nosso nascer da identidade no qual temos a afirmação do Eu</string>
+    <string name="septenio04">4º setênio: é a fase de nos prepararmos para vida na qual experimentamos o mundo;</string>
+    <string name="septenio05">5º setênio: é uma fase na qual questiono e organizo o mundo;</string>
+    <string name="septenio06">6º setênio: é uma fase na qual vou em direção à minha essência e assim eu começo a questionar a mim mesmo;</string>
+    <string name="septenio07">7º setênio: é um período em que eu crio uma nova visão sobre mim e sobre o mundo, aqui eu tenho minhas próprias respostas;</string>
+    <string name="septenio08">8º setênio: é a chamada fase da sabedoria. Aqui eu tenho novos valores</string>
+    <string name="septenio09">9º setênio: é um período mais intuitivo no qual nos conectamos com uma nova missão;</string>
+    <string name="septenio10">Após os 63 anos: ficamos livres das leis biográficas.</string>
+
+    <string name="settings_country_afghanistan">Afganistán</string>
+    <string name="settings_country_albania">Albania</string>
+    <string name="settings_country_algeria">Argelia</string>
+    <string name="settings_country_american_samoa">Samoa Americana</string>
+    <string name="settings_country_andorra">Andorra</string>
+    <string name="settings_country_angola">Angola</string>
+    <string name="settings_country_anguilla">Anguila</string>
+    <string name="settings_country_antartica">Antártida</string>
+    <string name="settings_country_antigua_and_barbuda">Antigua y Barbuda</string>
+    <string name="settings_country_argentina">Argentina</string>
+    <string name="settings_country_armenia">Armenia</string>
+    <string name="settings_country_aruba">Aruba</string>
+    <string name="settings_country_australia">Australia</string>
+    <string name="settings_country_austria">Austria</string>
+    <string name="settings_country_azerbaijan">Azerbaiyán</string>
+    <string name="settings_country_bahamas">Bahamas</string>
+    <string name="settings_country_bahrain">Bahréin</string>
+    <string name="settings_country_bangladesh">Bangladesh</string>
+    <string name="settings_country_barbados">Barbados</string>
+    <string name="settings_country_belarus">Bielorrusia</string>
+    <string name="settings_country_belgium">Bélgica</string>
+    <string name="settings_country_belize">Belice</string>
+    <string name="settings_country_benin">Benin</string>
+    <string name="settings_country_bermuda">islas Bermudas</string>
+    <string name="settings_country_bhutan">Bután</string>
+    <string name="settings_country_bolivia">Bolivia</string>
+    <string name="settings_country_bosnia_and_herzegovina">Bosnia y Herzegovina</string>
+    <string name="settings_country_botswana">Botswana</string>
+    <string name="settings_country_brazil">Brasil</string>
+    <string name="settings_country_british_indian_ocean_territory">Territorio Británico del Océano Índico</string>
+    <string name="settings_country_british_virgin_islands">Islas Vírgenes Británicas</string>
+    <string name="settings_country_brunei">Brunei</string>
+    <string name="settings_country_bulgaria">Bulgaria</string>
+    <string name="settings_country_burkina_faso">Burkina Faso</string>
+    <string name="settings_country_burundi">Burundi</string>
+    <string name="settings_country_cabo_verde">Cabo Verde</string>
+    <string name="settings_country_cambodia">Camboya</string>
+    <string name="settings_country_cameroon">Camerún</string>
+    <string name="settings_country_canada">Canadá</string>
+    <string name="settings_country_cayman_islands">Islas Caimán</string>
+    <string name="settings_country_central_african_republic">República Centroafricana</string>
+    <string name="settings_country_chad">Chad</string>
+    <string name="settings_country_chile">Chile</string>
+    <string name="settings_country_china">China</string>
+    <string name="settings_country_christmas_island">Isla de Navidad</string>
+    <string name="settings_country_cocos_islands">Islas Cocos</string>
+    <string name="settings_country_colombia">Colombia</string>
+    <string name="settings_country_comoros">Comoras</string>
+    <string name="settings_country_congo">Congo</string>
+    <string name="settings_country_cook_islands">Islas Cook</string>
+    <string name="settings_country_costa_rica">Costa Rica</string>
+    <string name="settings_country_côte_d_ivoire">Côte d Ivoire</string>
+    <string name="settings_country_croatia">Croacia</string>
+    <string name="settings_country_cuba">Cuba</string>
+    <string name="settings_country_curaçao">Curazao</string>
+    <string name="settings_country_cyprus">Chipre</string>
+    <string name="settings_country_czech_republic_czechia">República Checa (Chequia)</string>
+    <string name="settings_country_denmark">Dinamarca</string>
+    <string name="settings_country_djibouti">Djibouti</string>
+    <string name="settings_country_dominica">Dominica</string>
+    <string name="settings_country_dominican_republic">República Dominicana</string>
+    <string name="settings_country_dr_congo">República Democrática del Congo</string>
+    <string name="settings_country_ecuador">Ecuador</string>
+    <string name="settings_country_egypt">Egipto</string>
+    <string name="settings_country_el_salvador">El Salvador</string>
+    <string name="settings_country_equatorial_guinea">Guinea Ecuatorial</string>
+    <string name="settings_country_eritrea">Eritrea</string>
+    <string name="settings_country_estonia">Estonia</string>
+    <string name="settings_country_eswatini">Eswatini</string>
+    <string name="settings_country_ethiopia">Etiopía</string>
+    <string name="settings_country_faeroe_islands">Islas Feroe</string>
+    <string name="settings_country_falkland_islands">Islas Malvinas</string>
+    <string name="settings_country_fiji">Fiyi</string>
+    <string name="settings_country_finland">Finlandia</string>
+    <string name="settings_country_france">Francia</string>
+    <string name="settings_country_french_polynesia">Polinesia francés</string>
+    <string name="settings_country_gabon">Gabón</string>
+    <string name="settings_country_gambia">Gambia</string>
+    <string name="settings_country_georgia">Georgia</string>
+    <string name="settings_country_germany">Alemania</string>
+    <string name="settings_country_ghana">Ghana</string>
+    <string name="settings_country_gibraltar">Gibraltar</string>
+    <string name="settings_country_greece">Grecia</string>
+    <string name="settings_country_greenland">Groenlandia</string>
+    <string name="settings_country_grenada">Granada</string>
+    <string name="settings_country_guam">Guam</string>
+    <string name="settings_country_guatemala">Guatemala</string>
+    <string name="settings_country_guernsey">Guernsey</string>
+    <string name="settings_country_guinea">Guinea</string>
+    <string name="settings_country_guinea_bissau">Guinea-Bissau</string>
+    <string name="settings_country_guyana">Guayana</string>
+    <string name="settings_country_haiti">Haití</string>
+    <string name="settings_country_holy_see">Santa Sede</string>
+    <string name="settings_country_honduras">Honduras</string>
+    <string name="settings_country_hong_kong">Hong Kong</string>
+    <string name="settings_country_hungary">Hungría</string>
+    <string name="settings_country_iceland">Islandia</string>
+    <string name="settings_country_india">India</string>
+    <string name="settings_country_indonesia">Indonesia</string>
+    <string name="settings_country_iran">Iran</string>
+    <string name="settings_country_iraq">Irak</string>
+    <string name="settings_country_ireland">Irlanda</string>
+    <string name="settings_country_isle_of_man">Isla del hombre</string>
+    <string name="settings_country_israel">Israel</string>
+    <string name="settings_country_italy">Italia</string>
+    <string name="settings_country_jamaica">Jamaica</string>
+    <string name="settings_country_japan">Japón</string>
+    <string name="settings_country_jersey">Jersey</string>
+    <string name="settings_country_jordan">Jordán</string>
+    <string name="settings_country_kazakhstan">Kazajstán</string>
+    <string name="settings_country_kenya">Kenia</string>
+    <string name="settings_country_kiribati">Kiribati</string>
+    <string name="settings_country_kuwait">Kuwait</string>
+    <string name="settings_country_kyrgyzstan">Kirguistán</string>
+    <string name="settings_country_laos">Laos</string>
+    <string name="settings_country_latvia">Letonia</string>
+    <string name="settings_country_lebanon">Líbano</string>
+    <string name="settings_country_lesotho">Lesoto</string>
+    <string name="settings_country_liberia">Liberia</string>
+    <string name="settings_country_libya">Libia</string>
+    <string name="settings_country_liechtenstein">Liechtenstein</string>
+    <string name="settings_country_lithuania">Lituania</string>
+    <string name="settings_country_luxembourg">Luxemburgo</string>
+    <string name="settings_country_macao">Macao</string>
+    <string name="settings_country_madagascar">Madagascar</string>
+    <string name="settings_country_malawi">Malawi</string>
+    <string name="settings_country_malaysia">Malasia</string>
+    <string name="settings_country_maldives">Maldivas</string>
+    <string name="settings_country_mali">Mali</string>
+    <string name="settings_country_malta">Malta</string>
+    <string name="settings_country_marshall_islands">Islas Marshall</string>
+    <string name="settings_country_mauritania">Mauritania</string>
+    <string name="settings_country_mauritius">Mauricio</string>
+    <string name="settings_country_mayotte">Mayotte</string>
+    <string name="settings_country_mexico">México</string>
+    <string name="settings_country_micronesia">Micronesia</string>
+    <string name="settings_country_moldova">Moldavia</string>
+    <string name="settings_country_monaco">Mónaco</string>
+    <string name="settings_country_mongolia">Mongolia</string>
+    <string name="settings_country_montenegro">Montenegro</string>
+    <string name="settings_country_montserrat">Montserrat</string>
+    <string name="settings_country_morocco">Marruecos</string>
+    <string name="settings_country_mozambique">Mozambique</string>
+    <string name="settings_country_myanmar">Myanmar</string>
+    <string name="settings_country_namibia">Namibia</string>
+    <string name="settings_country_nauru">Nauru</string>
+    <string name="settings_country_nepal">Nepal</string>
+    <string name="settings_country_netherlands">Países Bajos</string>
+    <string name="settings_country_new_caledonia">Nueva Caledonia</string>
+    <string name="settings_country_new_zealand">Nueva Zelanda</string>
+    <string name="settings_country_nicaragua">Nicaragua</string>
+    <string name="settings_country_niger">Níger</string>
+    <string name="settings_country_nigeria">Nigeria</string>
+    <string name="settings_country_niue">Niue</string>
+    <string name="settings_country_north_korea">Corea del Norte</string>
+    <string name="settings_country_north_macedonia">Macedonia del Norte</string>
+    <string name="settings_country_northern_mariana_islands">Islas Marianas del Norte</string>
+    <string name="settings_country_norway">Noruega</string>
+    <string name="settings_country_oman">Omán</string>
+    <string name="settings_country_pakistan">Pakistán</string>
+    <string name="settings_country_palau">Palau</string>
+    <string name="settings_country_panama">Panamá</string>
+    <string name="settings_country_papua_new_guinea">Papúa Nueva Guinea</string>
+    <string name="settings_country_paraguay">Paraguay</string>
+    <string name="settings_country_peru">Perú</string>
+    <string name="settings_country_philippines">Filipinas</string>
+    <string name="settings_country_pitcairn_islands">Islas Pitcairn</string>
+    <string name="settings_country_poland">Polonia</string>
+    <string name="settings_country_portugal">Portugal</string>
+    <string name="settings_country_puerto_rico">Puerto Rico</string>
+    <string name="settings_country_qatar">Katar</string>
+    <string name="settings_country_réunion">Reunión</string>
+    <string name="settings_country_romania">Rumania</string>
+    <string name="settings_country_russia">Rusia</string>
+    <string name="settings_country_rwanda">Ruanda</string>
+    <string name="settings_country_saint_barthelemy">San Bartolomé</string>
+    <string name="settings_country_saint_helena">Santa elena</string>
+    <string name="settings_country_saint_kitts_nevis">Saint Kitts y Nevis</string>
+    <string name="settings_country_saint_lucia">Santa Lucía</string>
+    <string name="settings_country_saint_martin">San Martín</string>
+    <string name="settings_country_saint_pierre_miquelon">San Pedro y Miquelón</string>
+    <string name="settings_country_samoa">Samoa</string>
+    <string name="settings_country_san_marino">San Marino</string>
+    <string name="settings_country_sao_tome_principe">Santo Tomé y Príncipe</string>
+    <string name="settings_country_saudi_arabia">Arabia Saudita</string>
+    <string name="settings_country_senegal">Senegal</string>
+    <string name="settings_country_serbia">Serbia</string>
+    <string name="settings_country_seychelles">Seychelles</string>
+    <string name="settings_country_sierra_leone">Sierra Leona</string>
+    <string name="settings_country_singapore">Singapur</string>
+    <string name="settings_country_sint_maarten">Sint Maarten</string>
+    <string name="settings_country_slovakia">Eslovaquia</string>
+    <string name="settings_country_slovenia">Eslovenia</string>
+    <string name="settings_country_solomon_islands">Islas Salomón</string>
+    <string name="settings_country_somalia">Somalia</string>
+    <string name="settings_country_south_africa">Sudáfrica</string>
+    <string name="settings_country_south_korea">Corea del Sur</string>
+    <string name="settings_country_south_sudan">Sudán del Sur</string>
+    <string name="settings_country_spain">España</string>
+    <string name="settings_country_sri_lanka">Sri Lanka</string>
+    <string name="settings_country_st._vincent_grenadines">San Vicente y las Granadinas</string>
+    <string name="settings_country_state_of_palestine">Estado de Palestina</string>
+    <string name="settings_country_sudan">Sudán</string>
+    <string name="settings_country_suriname">Surinam</string>
+    <string name="settings_country_svalbard_and_jan_mayen">Svalbard y Jan Mayen</string>
+    <string name="settings_country_sweden">Suecia</string>
+    <string name="settings_country_switzerland">Suiza</string>
+    <string name="settings_country_syria">Siria</string>
+    <string name="settings_country_taiwan">Taiwán</string>
+    <string name="settings_country_tajikistan">Tayikistán</string>
+    <string name="settings_country_tanzania">Tanzania</string>
+    <string name="settings_country_thailand">Tailandia</string>
+    <string name="settings_country_timor_leste">Timor-Leste</string>
+    <string name="settings_country_togo">Ir</string>
+    <string name="settings_country_tokelau">Tokelau</string>
+    <string name="settings_country_tonga">Tonga</string>
+    <string name="settings_country_trinidad_and_tobago">Trinidad y Tobago</string>
+    <string name="settings_country_tunisia">Túnez</string>
+    <string name="settings_country_turkey">pavo</string>
+    <string name="settings_country_turkmenistan">Turkmenistán</string>
+    <string name="settings_country_turks_and_caicos">Turks y Caicos</string>
+    <string name="settings_country_tuvalu">Tuvalu</string>
+    <string name="settings_country_u.s._virgin_islands">Islas Vírgenes de EE.UU</string>
+    <string name="settings_country_uganda">Uganda</string>
+    <string name="settings_country_ukraine">Ucrania</string>
+    <string name="settings_country_united_arab_emirates">Emiratos Árabes Unidos</string>
+    <string name="settings_country_united_kingdom">Reino Unido</string>
+    <string name="settings_country_united_states">Estados Unidos</string>
+    <string name="settings_country_uruguay">Uruguay</string>
+    <string name="settings_country_uzbekistan">Uzbekistan</string>
+    <string name="settings_country_vanuatu">Vanuatu</string>
+    <string name="settings_country_venezuela">Venezuela</string>
+    <string name="settings_country_vietnam">Vietnam</string>
+    <string name="settings_country_wallis_futuna">Wallis y Futuna</string>
+    <string name="settings_country_western_sahara">Sahara Occidental</string>
+    <string name="settings_country_yemen">Yemen</string>
+    <string name="settings_country_zambia">Zambia</string>
+    <string name="settings_country_zimbabwe">Zimbabue</string>
+    <string name="settings_scholarity_never_attended_school">Never Attended School</string>
+    <string name="settings_other_option">Other option</string>
+    <string name="settings_marital_status_married">Married</string>
+    <string name="settings_marital_status_widowed">Widowed</string>
+    <string name="settings_marital_status_divorced">Divorced</string>
+    <string name="settings_marital_status_separated">Separated</string>
+    <string name="settings_marital_status_other">Other</string>
+    <string name="settings_choose_one_option">Choose one option</string>
+    <string name="settings_gender_female">Female</string>
+    <string name="settings_gender_male">Male</string>
+    <string name="settings_gender_other">Other</string>
+    <string name="settings_marital_status_single">Single</string>
+    <string name="settings_scholarity_illiterate">Illiterate</string>
+    <string name="settings_scholarity_reads_and_writes">Reads and writes</string>
+    <string name="settings_scholarity_primary_incomplete">Primary incomplete</string>
+    <string name="settings_scholarity_primary_complete">Primary complete</string>
+    <string name="settings_scholarity_middle_incomplete">Middle incomplete</string>
+    <string name="settings_scholarity_middle_complete">Middle complete</string>
+    <string name="settings_scholarity_college_incomplete">College incomplete</string>
+    <string name="settings_scholarity_college_complete">College complete</string>
+    <string name="settings_scholarity_postgraduate">Postgraduate</string>
+    <string name="settings_scholarity_doctoral">Doctoral</string>
+    <string name="settings_scholarity_baccalaureate">Baccalaureate</string>
+    <string name="settings_sexual_option_heterosexual">Heterosexual</string>
+    <string name="settings_sexual_option_homosexual">Homosexual</string>
+    <string name="settings_sexual_option_bisexual">Bisexual</string>
+    <string name="showCaseGotIt">GOT IT</string>
+
+
+</resources>

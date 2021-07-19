@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".module03autobiography.ModuleFragmentAutobiographyCrud"
+    style="@style/frameLayoutCrud">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        style="@style/cardView">
+
+        <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                <ImageView
+                    android:id="@+id/imageViewUserPhoto"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/main_icon_user_black_24dp"
+                    style="@style/imageViewUserPhoto" />
+
+                <LinearLayout style="@style/linearLayoutVerticalMatchWrapLeft">
+
+                    <TextView
+                        android:id="@+id/mTextViewValueApplicationName"
+                        android:text="@string/app_name"
+                        style="@style/textViewTitleDark" />
+
+                    <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                        <TextView
+                            style="@style/textViewTitleDark"
+                            android:text="@string/label_name" />
+
+                        <TextView
+                            android:id="@+id/textViewUserValue"
+                            style="@style/textViewValueVisible"
+                            android:text="@string/label_screen_test_name" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <TextView
+                android:id="@+id/textViewCrudTitle"
+                android:text="@string/label_challenge"
+                style="@style/textViewTitleCrud" />
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                <TextView
+                    android:text="@string/label_points"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberPoints"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_number_photos"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberPhotos"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_number_actions"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberActions"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+                <TextView
+                    android:text="@string/label_number_sharing"
+                    style="@style/textViewTitleDark" />
+
+                <TextView
+                    android:id="@+id/mTextViewValueNumberSharing"
+                    android:text="@string/label_screen_number_test_03"
+                    style="@style/textViewValueVisible" />
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutVerticalMatchMatch">
+
+                <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                    <TextView
+                        android:text="@string/label_speaker"
+                        style="@style/textViewTitleDark" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonSpeaker"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/button_icon_volume_up_blue_24dp"
+                        style="@style/imageButton" />
+
+                    <TextView
+                        android:text="@string/label_recorder"
+                        style="@style/textViewTitleDark" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonRecorder"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/button_icon_microphone_blue_24dp"
+                        style="@style/imageButton" />
+
+                    <TextView
+                        android:text="@string/label_answer"
+                        style="@style/textViewTitleDark" />
+
+                    <TextView
+                        android:id="@+id/textViewLength"
+                        android:text="@string/label_screen_number_test_01"
+                        style="@style/textViewValueVisible" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mTextViewValueQuestion"
+                    android:hint="@string/label_screen_test_question"
+                    tools:ignore="LabelFor"
+                    style="@style/textViewValueQuestion" />
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutVerticalMatchWrapCenter">
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                    <TextView
+                        android:text="@string/label_photos"
+                        style="@style/textViewTitleDark" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonPhotoPrevious"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/button_icon_arrow_previous_blue_24dp"
+                        style="@style/imageButton" />
+
+                    <TextView
+                        android:id="@+id/textViewPhotoValue"
+                        android:text="@string/label_screen_number_test_01"
+                        style="@style/textViewValueVisible" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonPhotoNext"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/button_icon_arrow_next_blue_24dp"
+                        style="@style/imageButton" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchWrap">
+
+                    <LinearLayout style="@style/linearLayoutVerticalWrapWrap">
+
+                        <Button
+                            android:id="@+id/buttonPhotoCamera"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_camera_blue_24dp"
+                            android:text="@string/label_photos" />
+
+                        <Button
+                            android:id="@+id/buttonPhotoDevice"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_phone_blue_24dp"
+                            android:text="@string/label_device" />
+
+                        <Button
+                            android:id="@+id/buttonPhotoRemove"
+                            style="@style/buttonSmall"
+                            android:drawableTop="@drawable/button_icon_remove_blue_24dp"
+                            android:text="@string/label_remove" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageViewPhoto"
+                        android:src="@drawable/grade_icon_99"
+                        android:contentDescription="@string/content_description"
+                        app:srcCompat="@color/Blue"
+                        style="@style/imageViewPhoto" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View style="@style/divider" />
+
+            <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                    <TextView
+                        style="@style/textViewTitleDark"
+                        android:text="@string/label_status" />
+
+                    <TextView
+                        android:id="@+id/textViewStatusValue"
+                        style="@style/textViewValueVisible"
+                        android:text="@string/label_status_new" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                    <TextView
+                        style="@style/textViewTitleDark"
+                        android:text="@string/label_experience" />
+
+                    <TextView
+                        android:id="@+id/textViewExperienceValue"
+                        style="@style/textViewValueVisible"
+                        android:text="@string/label_status_new" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                    <TextView
+                        style="@style/textViewTitleDark"
+                        android:text="@string/label_priority" />
+
+                    <TextView
+                        android:id="@+id/textViewPriorityValue"
+                        style="@style/textViewValueVisible"
+                        android:text="@string/label_high" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                    <TextView
+                        style="@style/textViewTitleDark"
+                        android:text="@string/label_frequency" />
+
+                    <TextView
+                        android:id="@+id/textViewFrequencyValue"
+                        style="@style/textViewValueVisible"
+                        android:text="@string/label_medium" />
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/linearLayoutHorizontalMatchMatch">
+
+                    <TextView
+                        style="@style/textViewTitleDark"
+                        android:text="@string/label_costs" />
+
+                    <TextView
+                        android:id="@+id/textViewCostsValue"
+                        style="@style/textViewValueVisible"
+                        android:text="@string/label_low" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom|end"
+            style="@style/linearLayoutVerticalMatchWrapCenter">
+
+            <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                <TextView
+                    android:id="@+id/textViewAction"
+                    android:text="@string/label_action"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonAction"
+                    android:src="@drawable/button_icon_action_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                style="@style/linearLayoutHorizontalMatchMatch">
+
+                <TextView
+                    android:id="@+id/textViewShare"
+                    android:text="@string/label_share"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonShare"
+                    android:src="@drawable/button_icon_share_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                <TextView
+                    android:id="@+id/textViewStatus"
+                    android:text="@string/label_status"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonStatus"
+                    android:src="@drawable/status_icon_closed_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                <TextView
+                    android:id="@+id/textViewExperience"
+                    android:text="@string/label_experience"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonExperience"
+                    android:src="@drawable/button_icon_experience_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                style="@style/linearLayoutHorizontalMatchMatch">
+
+                <TextView
+                    android:id="@+id/textViewCosts"
+                    android:text="@string/label_costs"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonCosts"
+                    android:src="@drawable/button_icon_share_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="end"
+                style="@style/linearLayoutHorizontalMatchMatch">
+
+                <TextView
+                    android:id="@+id/textViewPriority"
+                    android:text="@string/label_priority"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonPriority"
+                    android:src="@drawable/button_icon_share_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearLayoutHorizontalWrapWrapCenter">
+
+                <TextView
+                    android:id="@+id/textViewFrequency"
+                    android:text="@string/label_frequency"
+                    style="@style/textViewNameFloatingActionBar" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButtonFrequency"
+                    android:src="@drawable/button_icon_share_white_24dp"
+                    style="@style/floatingActionButtonSmall" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutHorizontalWrapWrapFloatingActionButton">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButtonMaster"
+                android:src="@drawable/floating_action_button_open"
+                style="@style/floatingActionButtonAuto" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

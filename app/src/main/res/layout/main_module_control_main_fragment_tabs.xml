@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".module01main.ModuleControlMainDetailFragment"
+    style="@style/frameLayoutTabs">
+
+    <TextView
+        android:id="@+id/textViewFragment"
+        android:gravity="center"
+        android:text="@string/label_tabs"
+        style="@style/textViewValueVisible" />
+
+</FrameLayout>

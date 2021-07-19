@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "115351028683",
+    "firebase_url": "https://mebyme-d9207.firebaseio.com",
+    "project_id": "mebyme-d9207",
+    "storage_bucket": "mebyme-d9207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115351028683:android:970b7d3303ff4d55682c4e",
+        "android_client_info": {
+          "package_name": "com.prosper.day"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115351028683-9ksgbtvos6k75qc5pjtdnjckmohppjma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoDJT62fgzEPW5Kf_rS7LzUK8JPfrqowM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115351028683-9ksgbtvos6k75qc5pjtdnjckmohppjma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115351028683:android:288a87c89a8e370c682c4e",
+        "android_client_info": {
+          "package_name": "com.prosper.day.full"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115351028683-9ksgbtvos6k75qc5pjtdnjckmohppjma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoDJT62fgzEPW5Kf_rS7LzUK8JPfrqowM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115351028683-9ksgbtvos6k75qc5pjtdnjckmohppjma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

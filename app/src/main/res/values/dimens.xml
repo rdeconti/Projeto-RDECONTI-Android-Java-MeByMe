@@ -1,0 +1,37 @@
+<resources>
+
+    <dimen name="dimen00dp">0dp</dimen>
+    <dimen name="dimen02dp">2dp</dimen>
+    <dimen name="dimen04dp">04dp</dimen>
+    <dimen name="dimen05dp">05dp</dimen>
+    <dimen name="dimen08dp">8dp</dimen>
+    <dimen name="dimen16dp">16dp</dimen>
+    <dimen name="dimen30dp">30dp</dimen>
+    <dimen name="dimen60dp">60dp</dimen>
+    <dimen name="dimen70dp">70dp</dimen>
+    <dimen name="dimen104dp">104dp</dimen>
+
+    <dimen name="padding01dp">1dp</dimen>
+    <dimen name="padding02dp">2dp</dimen>
+    <dimen name="padding04dp">4dp</dimen>
+    <dimen name="padding06dp">6dp</dimen>
+    <dimen name="padding08dp">8dp</dimen>
+    <dimen name="padding10dp">10dp</dimen>
+    <dimen name="padding30dp">30dp</dimen>
+
+    <dimen name="textSize_14sp">14sp</dimen>
+    <dimen name="textSize_16sp">16sp</dimen>
+    <dimen name="textSize_18sp">18sp</dimen>
+    <dimen name="textSize_30sp">30sp</dimen>
+    <dimen name="textSize_36sp">36sp</dimen>
+    <dimen name="textSize_40sp">40sp</dimen>
+    <dimen name="textSize_70sp">70sp</dimen>
+
+    <dimen name="layout_weight">1</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+
+</resources>
